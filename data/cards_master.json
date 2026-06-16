@@ -1,0 +1,2552 @@
+{
+ "version": 6,
+ "cards": {
+  "ST01-001": {
+   "code": "ST01-001",
+   "name": "Monkey.D.Luffy",
+   "category": "Leader",
+   "colors": [
+    "Red"
+   ],
+   "cost": null,
+   "power": 5000,
+   "counter": null,
+   "life": 5,
+   "attribute": "Strike",
+   "types": [
+    "Straw Hat Crew",
+    "Supernovas"
+   ],
+   "rarity": "L",
+   "set": "ST-01",
+   "text": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-001.jpg",
+   "i18n": {},
+   "textHash": "119:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-002": {
+   "code": "ST01-002",
+   "name": "Usopp",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 2,
+   "power": 2000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Ranged",
+   "types": [
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
+   "triggerText": "Play this card.",
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-002.jpg",
+   "i18n": {},
+   "textHash": "156:WyJbRE9OISEgeDJd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-003": {
+   "code": "ST01-003",
+   "name": "Karoo",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 1,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal",
+    "Alabasta"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": null,
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-003.jpg",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-004": {
+   "code": "ST01-004",
+   "name": "Sanji",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 2,
+   "power": 4000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-004.jpg",
+   "i18n": {},
+   "textHash": "113:WyJbRE9OISEgeDJd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-005": {
+   "code": "ST01-005",
+   "name": "Jinbe",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 3,
+   "power": 5000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Fish-Man",
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-005.jpg",
+   "i18n": {},
+   "textHash": "142:WyJbRE9OISEgeDFd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-006": {
+   "code": "ST01-006",
+   "name": "Tony Tony.Chopper",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 1,
+   "power": 1000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal",
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-006.jpg",
+   "i18n": {},
+   "textHash": "131:WyJbQmxvY2tlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-007": {
+   "code": "ST01-007",
+   "name": "Nami",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 1,
+   "power": 1000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-007.jpg",
+   "i18n": {},
+   "textHash": "119:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-008": {
+   "code": "ST01-008",
+   "name": "Nico Robin",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 3,
+   "power": 5000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Wisdom",
+   "types": [
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": null,
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-008.jpg",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-009": {
+   "code": "ST01-009",
+   "name": "Nefeltari Vivi",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 2,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Alabasta"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": null,
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-009.jpg",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-010": {
+   "code": "ST01-010",
+   "name": "Franky",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 4,
+   "power": 6000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": null,
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-010.jpg",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-011": {
+   "code": "ST01-011",
+   "name": "Brook",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 2,
+   "power": 3000,
+   "counter": 2000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-011.jpg",
+   "i18n": {},
+   "textHash": "97:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-012": {
+   "code": "ST01-012",
+   "name": "Monkey.D.Luffy",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 5,
+   "power": 6000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Straw Hat Crew",
+    "Supernovas"
+   ],
+   "rarity": "SR",
+   "set": "ST-01",
+   "text": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-012.jpg",
+   "i18n": {},
+   "textHash": "168:WyJbUnVzaF0gKFRo",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-013": {
+   "code": "ST01-013",
+   "name": "Roronoa Zoro",
+   "category": "Character",
+   "colors": [
+    "Red"
+   ],
+   "cost": 3,
+   "power": 5000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Straw Hat Crew",
+    "Supernovas"
+   ],
+   "rarity": "SR",
+   "set": "ST-01",
+   "text": "[DON!! x1] This Character gains +1000 power.",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-013.jpg",
+   "i18n": {},
+   "textHash": "60:WyJbRE9OISEgeDFd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-014": {
+   "code": "ST01-014",
+   "name": "Guard Point",
+   "category": "Event",
+   "colors": [
+    "Red"
+   ],
+   "cost": 1,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Animal",
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+   "triggerText": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-014.jpg",
+   "i18n": {},
+   "textHash": "180:WyJbQ291bnRlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-015": {
+   "code": "ST01-015",
+   "name": "Gum-Gum Jet Pistol",
+   "category": "Event",
+   "colors": [
+    "Red"
+   ],
+   "cost": 4,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Straw Hat Crew",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+   "triggerText": "Activate this card's [Main] effect.",
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-015.jpg",
+   "i18n": {},
+   "textHash": "123:WyJbTWFpbl0gSy5P",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-016": {
+   "code": "ST01-016",
+   "name": "Diable Jambe",
+   "category": "Event",
+   "colors": [
+    "Red"
+   ],
+   "cost": 1,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.",
+   "triggerText": "K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.",
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-016.jpg",
+   "i18n": {},
+   "textHash": "264:WyJbTWFpbl0gU2Vs",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST01-017": {
+   "code": "ST01-017",
+   "name": "Thousand Sunny",
+   "category": "Stage",
+   "colors": [
+    "Red"
+   ],
+   "cost": 2,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Straw Hat Crew"
+   ],
+   "rarity": "C",
+   "set": "ST-01",
+   "text": "[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.",
+   "triggerText": null,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST01-017.jpg",
+   "i18n": {},
+   "textHash": "162:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-001": {
+   "code": "ST02-001",
+   "name": "Eustass\"Captain\"Kid",
+   "category": "Leader",
+   "colors": [
+    "Green"
+   ],
+   "cost": null,
+   "power": 5000,
+   "counter": null,
+   "life": 5,
+   "attribute": "Special",
+   "types": [
+    "Kid Pirates",
+    "Supernovas"
+   ],
+   "rarity": "L",
+   "set": "ST-02",
+   "text": "[Activate: Main] [Once Per Turn] (3) (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-001.jpg",
+   "i18n": {},
+   "textHash": "189:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-002": {
+   "code": "ST02-002",
+   "name": "Vito",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 3,
+   "power": 5000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Ranged",
+   "types": [
+    "Firetank Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": null,
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-002.jpg",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-003": {
+   "code": "ST02-003",
+   "name": "Urouge",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 2,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Fallen Monk Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-003.jpg",
+   "i18n": {},
+   "textHash": "89:WyJbRE9OISEgeDFd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-004": {
+   "code": "ST02-004",
+   "name": "Capone\"Gang\"Bege",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 1,
+   "power": 1000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Firetank Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-004.jpg",
+   "i18n": {},
+   "textHash": "131:WyJbQmxvY2tlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-005": {
+   "code": "ST02-005",
+   "name": "Killer",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 3,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Kid Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+   "triggerText": "Play this card.",
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-005.jpg",
+   "i18n": {},
+   "textHash": "114:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-006": {
+   "code": "ST02-006",
+   "name": "Koby",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 4,
+   "power": 6000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Navy"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": null,
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-006.jpg",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-007": {
+   "code": "ST02-007",
+   "name": "Jewelry Bonney",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 1,
+   "power": 1000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Bonney Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[Activate: Main] (1) (You may rest the specified number of DON!! cards in your cost area.) You may rest this card: Look at 5 cards from the top of your deck; reveal up to 1 \"Supernovas\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-007.jpg",
+   "i18n": {},
+   "textHash": "300:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-008": {
+   "code": "ST02-008",
+   "name": "Scratchmen Apoo",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 2,
+   "power": 3000,
+   "counter": 2000,
+   "life": null,
+   "attribute": "Ranged",
+   "types": [
+    "On-Air Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-008.jpg",
+   "i18n": {},
+   "textHash": "88:WyJbRE9OISEgeDFd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-009": {
+   "code": "ST02-009",
+   "name": "Trafalgar Law",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 5,
+   "power": 6000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Heart Pirates",
+    "Supernovas"
+   ],
+   "rarity": "SR",
+   "set": "ST-02",
+   "text": "[On Play] Set up to 1 of your \"Supernovas\" or \"Heart Pirates\" type rested Characters with a cost of 5 or less as active.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-009.jpg",
+   "i18n": {},
+   "textHash": "140:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-010": {
+   "code": "ST02-010",
+   "name": "Basil Hawkins",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 5,
+   "power": 6000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Hawkins Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-010.jpg",
+   "i18n": {},
+   "textHash": "132:WyJbRE9OISEgeDFd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-011": {
+   "code": "ST02-011",
+   "name": "Heat",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 2,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Kid Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": null,
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-011.jpg",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-012": {
+   "code": "ST02-012",
+   "name": "Bepo",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 1,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Heart Pirates",
+    "Minks"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": null,
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-012.jpg",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-013": {
+   "code": "ST02-013",
+   "name": "Eustass\"Captain\"Kid",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 7,
+   "power": 7000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Kid Pirates",
+    "Supernovas"
+   ],
+   "rarity": "SR",
+   "set": "ST-02",
+   "text": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this card as active.",
+   "triggerText": null,
+   "errata": true,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-013.jpg",
+   "i18n": {},
+   "textHash": "186:WyJbQmxvY2tlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-014": {
+   "code": "ST02-014",
+   "name": "X.Drake",
+   "category": "Character",
+   "colors": [
+    "Green"
+   ],
+   "cost": 4,
+   "power": 5000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Drake Pirates",
+    "Navy",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[DON!! x1] [Your Turn] If this Character is rested, your \"Supernovas\" or \"Navy\" type Leaders and Characters gain +1000 power.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-014.jpg",
+   "i18n": {},
+   "textHash": "145:WyJbRE9OISEgeDFd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-015": {
+   "code": "ST02-015",
+   "name": "Scalpel",
+   "category": "Event",
+   "colors": [
+    "Green"
+   ],
+   "cost": 1,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Heart Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+   "triggerText": "Set up to 2 of your DON!! cards as active.",
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-015.jpg",
+   "i18n": {},
+   "textHash": "194:WyJbQ291bnRlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-016": {
+   "code": "ST02-016",
+   "name": "Repel",
+   "category": "Event",
+   "colors": [
+    "Green"
+   ],
+   "cost": 2,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Kid Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-016.jpg",
+   "i18n": {},
+   "textHash": "154:WyJbQ291bnRlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST02-017": {
+   "code": "ST02-017",
+   "name": "Straw Sword",
+   "category": "Event",
+   "colors": [
+    "Green"
+   ],
+   "cost": 2,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Hawkins Pirates",
+    "Supernovas"
+   ],
+   "rarity": "C",
+   "set": "ST-02",
+   "text": "[Main] Rest up to 1 of your opponent's Characters.",
+   "triggerText": null,
+   "errata": false,
+   "image": "https://optcgapi.com/media/static/Card_Images/ST02-017.jpg",
+   "i18n": {},
+   "textHash": "66:WyJbTWFpbl0gUmVz",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-001": {
+   "code": "ST03-001",
+   "name": "Crocodile",
+   "category": "Leader",
+   "colors": [
+    "Blue"
+   ],
+   "cost": null,
+   "power": 5000,
+   "counter": null,
+   "life": 5,
+   "attribute": "Special",
+   "types": [
+    "Baroque Works",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "L",
+   "set": "ST-03",
+   "text": "[Activate: Main] [Once Per Turn] DON!! -4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+   "triggerText": null,
+   "image": "ST03-001",
+   "i18n": {},
+   "textHash": "221:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-002": {
+   "code": "ST03-002",
+   "name": "Edward Weevil",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 3,
+   "power": 5000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": null,
+   "triggerText": null,
+   "image": "ST03-002",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-003": {
+   "code": "ST03-003",
+   "name": "Crocodile",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 5,
+   "power": 6000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Baroque Works",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "SR",
+   "set": "ST-03",
+   "text": "[Blocker] [DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+   "triggerText": null,
+   "image": "ST03-003",
+   "i18n": {},
+   "textHash": "131:WyJbQmxvY2tlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-004": {
+   "code": "ST03-004",
+   "name": "Gecko Moria",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 4,
+   "power": 5000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "The Seven Warlords of the Sea",
+    "Thriller Bark Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[On Play] Add up to 1 \"The Seven Warlords of the Sea\" or \"Thriller Bark Pirates\" type Character with a cost of 4 or less than [Gecko Moria] from your trash to your hand.",
+   "triggerText": null,
+   "image": "ST03-004",
+   "i18n": {},
+   "textHash": "189:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-005": {
+   "code": "ST03-005",
+   "name": "Dracule Mihawk",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 4,
+   "power": 5000,
+   "counter": 2000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+   "triggerText": null,
+   "image": "ST03-005",
+   "i18n": {},
+   "textHash": "90:WyJbRE9OISEgeDFd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-006": {
+   "code": "ST03-006",
+   "name": "Jinbe",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 2,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Fish-Man",
+    "The Seven Warlords of the Sea",
+    "The Sun Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": null,
+   "triggerText": null,
+   "image": "ST03-006",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-007": {
+   "code": "ST03-007",
+   "name": "Sentomaru",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 3,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Navy"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[DON!! x1] [Activate: Main] [Once Per Turn] (2): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
+   "triggerText": null,
+   "image": "ST03-007",
+   "i18n": {},
+   "textHash": "154:WyJbRE9OISEgeDFd",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-008": {
+   "code": "ST03-008",
+   "name": "Trafalgar Law",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 1,
+   "power": 1000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Heart Pirates",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[Blocker]",
+   "triggerText": null,
+   "image": "ST03-008",
+   "i18n": {},
+   "textHash": "25:WyJbQmxvY2tlcl0i",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-009": {
+   "code": "ST03-009",
+   "name": "Donquixote Doflamingo",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 7,
+   "power": 7000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Donquixote Pirates",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "SR",
+   "set": "ST-03",
+   "text": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+   "triggerText": null,
+   "image": "ST03-009",
+   "i18n": {},
+   "textHash": "96:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-010": {
+   "code": "ST03-010",
+   "name": "Bartholomew Kuma",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 2,
+   "power": 3000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Revolutionary Army",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
+   "triggerText": "Play this card.",
+   "image": "ST03-010",
+   "i18n": {},
+   "textHash": "143:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-011": {
+   "code": "ST03-011",
+   "name": "Buggy",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 1,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Buggy's Delivery",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": null,
+   "triggerText": null,
+   "image": "ST03-011",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-012": {
+   "code": "ST03-012",
+   "name": "Pacifista",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 4,
+   "power": 6000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Biological Weapon",
+    "Navy"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": null,
+   "triggerText": null,
+   "image": "ST03-012",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-013": {
+   "code": "ST03-013",
+   "name": "Boa Hancock",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 3,
+   "power": 1000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Kuja Pirates",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[Blocker]",
+   "triggerText": "Play this card.",
+   "image": "ST03-013",
+   "i18n": {},
+   "textHash": "38:WyJbQmxvY2tlcl0i",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-014": {
+   "code": "ST03-014",
+   "name": "Marshall.D.Teach",
+   "category": "Character",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 4,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Blackbeard Pirates",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+   "triggerText": null,
+   "image": "ST03-014",
+   "i18n": {},
+   "textHash": "96:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-015": {
+   "code": "ST03-015",
+   "name": "Sables",
+   "category": "Event",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 4,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Baroque Works",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+   "triggerText": "Activate this card's [Main] effect.",
+   "image": "ST03-015",
+   "i18n": {},
+   "textHash": "126:WyJbTWFpbl0gUmV0",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-016": {
+   "code": "ST03-016",
+   "name": "Thrust Pad Cannon",
+   "category": "Event",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 2,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Revolutionary Army",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+   "triggerText": "Activate this card's [Counter] effect.",
+   "image": "ST03-016",
+   "i18n": {},
+   "textHash": "132:WyJbQ291bnRlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST03-017": {
+   "code": "ST03-017",
+   "name": "Love-Love Mellow",
+   "category": "Event",
+   "colors": [
+    "Blue"
+   ],
+   "cost": 2,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Kuja Pirates",
+    "The Seven Warlords of the Sea"
+   ],
+   "rarity": "C",
+   "set": "ST-03",
+   "text": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",
+   "triggerText": null,
+   "image": "ST03-017",
+   "i18n": {},
+   "textHash": "165:WyJbQ291bnRlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-001": {
+   "code": "ST04-001",
+   "name": "Kaido",
+   "category": "Leader",
+   "colors": [
+    "Purple"
+   ],
+   "cost": null,
+   "power": 5000,
+   "counter": null,
+   "life": 5,
+   "attribute": "Strike",
+   "types": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+   ],
+   "rarity": "L",
+   "set": "ST-04",
+   "text": "[Activate: Main] [Once Per Turn] DON!! -7: Trash up to 1 of your opponent's Life cards.",
+   "triggerText": null,
+   "image": "ST04-001",
+   "i18n": {},
+   "textHash": "106:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-002": {
+   "code": "ST04-002",
+   "name": "Ulti",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 4,
+   "power": 5000,
+   "counter": 2000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[On Play] DON!! -1: Play up to 1 [Page One] card with a cost of 4 or less from your hand.",
+   "triggerText": null,
+   "image": "ST04-002",
+   "i18n": {},
+   "textHash": "105:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-003": {
+   "code": "ST04-003",
+   "name": "Kaido",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 9,
+   "power": 10000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+   ],
+   "rarity": "SR",
+   "set": "ST-04",
+   "text": "[On Play] DON!! -5: K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.",
+   "triggerText": null,
+   "image": "ST04-003",
+   "i18n": {},
+   "textHash": "151:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-004": {
+   "code": "ST04-004",
+   "name": "King",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 6,
+   "power": 7000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "SR",
+   "set": "ST-04",
+   "text": "[On Play] DON!! -1: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+   "triggerText": null,
+   "image": "ST04-004",
+   "i18n": {},
+   "textHash": "104:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-005": {
+   "code": "ST04-005",
+   "name": "Queen",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 5,
+   "power": 6000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[Blocker] [On Play] DON!! -1: Draw 2 cards and trash 1 card from your hand.",
+   "triggerText": null,
+   "image": "ST04-005",
+   "i18n": {},
+   "textHash": "91:WyJbQmxvY2tlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-006": {
+   "code": "ST04-006",
+   "name": "Sasaki",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 3,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Ranged",
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[On Play] DON!! -1: Draw 1 card.",
+   "triggerText": null,
+   "image": "ST04-006",
+   "i18n": {},
+   "textHash": "48:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-007": {
+   "code": "ST04-007",
+   "name": "Sheepshead",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 2,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Animal Kingdom Pirates",
+    "SMILE"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": null,
+   "triggerText": null,
+   "image": "ST04-007",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-008": {
+   "code": "ST04-008",
+   "name": "Jack",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 3,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+   "triggerText": null,
+   "image": "ST04-008",
+   "i18n": {},
+   "textHash": "128:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-009": {
+   "code": "ST04-009",
+   "name": "Ginrummy",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 1,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal Kingdom Pirates",
+    "SMILE"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": null,
+   "triggerText": null,
+   "image": "ST04-009",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-010": {
+   "code": "ST04-010",
+   "name": "Who's.Who",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 3,
+   "power": 3000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Animal Kingdom Pirates",
+    "Smile"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[On Play] DON!! -1: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+   "triggerText": "Play this card.",
+   "image": "ST04-010",
+   "i18n": {},
+   "textHash": "117:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-011": {
+   "code": "ST04-011",
+   "name": "Black Maria",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 2,
+   "power": 2000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[Blocker]",
+   "triggerText": null,
+   "image": "ST04-011",
+   "i18n": {},
+   "textHash": "25:WyJbQmxvY2tlcl0i",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-012": {
+   "code": "ST04-012",
+   "name": "Page One",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 4,
+   "power": 6000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": null,
+   "triggerText": null,
+   "image": "ST04-012",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-013": {
+   "code": "ST04-013",
+   "name": "X.Drake",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 3,
+   "power": 5000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "Animal Kingdom Pirates",
+    "Drake Pirates",
+    "Navy"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": null,
+   "triggerText": null,
+   "image": "ST04-013",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-014": {
+   "code": "ST04-014",
+   "name": "Lead Performer \"Disaster\"",
+   "category": "Event",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 4,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[Main] Draw 1 card, then add up to 1 DON!! card from your DON!! deck and set it as active.",
+   "triggerText": "Activate this card's [Main] effect.",
+   "image": "ST04-014",
+   "i18n": {},
+   "textHash": "139:WyJbTWFpbl0gRHJh",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-015": {
+   "code": "ST04-015",
+   "name": "Brachio Bomber",
+   "category": "Event",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 6,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
+   "triggerText": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+   "image": "ST04-015",
+   "i18n": {},
+   "textHash": "225:WyJbTWFpbl0gSy5P",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-016": {
+   "code": "ST04-016",
+   "name": "Blast Breath",
+   "category": "Event",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 1,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Animal Kingdom Pirates",
+    "The Four Emperors"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[Counter] DON!! -1: Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+   "triggerText": null,
+   "image": "ST04-016",
+   "i18n": {},
+   "textHash": "115:WyJbQ291bnRlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST04-017": {
+   "code": "ST04-017",
+   "name": "Onigashima Island",
+   "category": "Stage",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 3,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "Animal Kingdom Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-04",
+   "text": "[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+   "triggerText": null,
+   "image": "ST04-017",
+   "i18n": {},
+   "textHash": "168:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-001": {
+   "code": "ST05-001",
+   "name": "Shanks",
+   "category": "Leader",
+   "colors": [
+    "Purple"
+   ],
+   "cost": null,
+   "power": 5000,
+   "counter": null,
+   "life": 5,
+   "attribute": "Slash",
+   "types": [
+    "FILM",
+    "The Four Emperors",
+    "Red-Haired Pirates"
+   ],
+   "rarity": "L",
+   "set": "ST-05",
+   "text": "[Activate: Main] [Once Per Turn] DON!! -3: All of your \"FILM\" type Characters gain +2000 power during this turn.",
+   "triggerText": null,
+   "image": "ST05-001",
+   "i18n": {},
+   "textHash": "133:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-002": {
+   "code": "ST05-002",
+   "name": "Ain",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 4,
+   "power": 5000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "FILM",
+    "Neo Navy"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.",
+   "triggerText": null,
+   "image": "ST05-002",
+   "i18n": {},
+   "textHash": "82:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-003": {
+   "code": "ST05-003",
+   "name": "Ann",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 2,
+   "power": 3000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "FILM",
+    "The Pirates Fest"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "[Blocker]",
+   "triggerText": null,
+   "image": "ST05-003",
+   "i18n": {},
+   "textHash": "25:WyJbQmxvY2tlcl0i",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-004": {
+   "code": "ST05-004",
+   "name": "Uta",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 4,
+   "power": 5000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "FILM"
+   ],
+   "rarity": "SR",
+   "set": "ST-05",
+   "text": "[Blocker] [On Block] DON!! -1: Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+   "triggerText": null,
+   "image": "ST05-004",
+   "i18n": {},
+   "textHash": "115:WyJbQmxvY2tlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-005": {
+   "code": "ST05-005",
+   "name": "Carina",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 2,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Wisdom",
+   "types": [
+    "FILM",
+    "Grantesoro"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "[Activate: Main] [Once Per Turn] You may rest this Character and trash 1 \"FILM\" type card from your hand: If your opponent has more DON!! cards on their field than you, add 2 DON!! cards from your DON!! deck and rest them.",
+   "triggerText": null,
+   "image": "ST05-005",
+   "i18n": {},
+   "textHash": "240:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-006": {
+   "code": "ST05-006",
+   "name": "Gild Tesoro",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 5,
+   "power": 6000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "FILM",
+    "Grantesoro"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "[When Attacking] DON!! -2: Draw 2 cards.",
+   "triggerText": null,
+   "image": "ST05-006",
+   "i18n": {},
+   "textHash": "56:WyJbV2hlbiBBdHRh",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-007": {
+   "code": "ST05-007",
+   "name": "Gordon",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 1,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Wisdom",
+   "types": [
+    "FILM"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": null,
+   "triggerText": null,
+   "image": "ST05-007",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-008": {
+   "code": "ST05-008",
+   "name": "Shiki",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 6,
+   "power": 7000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Slash",
+   "types": [
+    "FILM",
+    "Golden Lion Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "If you have 8 or more DON!! cards on your field, this Character cannot be K.O.'d in battle.",
+   "triggerText": null,
+   "image": "ST05-008",
+   "i18n": {},
+   "textHash": "107:WyJJZiB5b3UgaGF2",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-009": {
+   "code": "ST05-009",
+   "name": "Scarlet",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 2,
+   "power": 3000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "Animal",
+    "FILM",
+    "Golden Lion Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": null,
+   "triggerText": "Play this card.",
+   "image": "ST05-009",
+   "i18n": {},
+   "textHash": "31:W251bGwsIlBsYXkg",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-010": {
+   "code": "ST05-010",
+   "name": "Zephyr",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 7,
+   "power": 8000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Strike",
+   "types": [
+    "FILM",
+    "Neo Navy"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "When this Character battles \"Strike\" attribute Characters, this Character gains +3000 power during this turn. [Activate: Main] [Once Per Turn] DON!! -1: This Character gains +2000 power during this turn.",
+   "triggerText": null,
+   "image": "ST05-010",
+   "i18n": {},
+   "textHash": "221:WyJXaGVuIHRoaXMg",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-011": {
+   "code": "ST05-011",
+   "name": "Douglas Bullet",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 8,
+   "power": 10000,
+   "counter": 0,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "FILM",
+    "The Pirates Fest"
+   ],
+   "rarity": "SR",
+   "set": "ST-05",
+   "text": "[Activate: Main] [Once Per Turn] DON!! -4: Rest up to 2 of your opponent's Characters with a cost of 6 or less. Then, this Character gains [Double Attack] during this turn.",
+   "triggerText": null,
+   "image": "ST05-011",
+   "i18n": {},
+   "textHash": "189:WyJbQWN0aXZhdGU6",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-012": {
+   "code": "ST05-012",
+   "name": "Baccarat",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 3,
+   "power": 5000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "FILM",
+    "Grantesoro"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": null,
+   "triggerText": null,
+   "image": "ST05-012",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-013": {
+   "code": "ST05-013",
+   "name": "Bins",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 4,
+   "power": 6000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Special",
+   "types": [
+    "FILM",
+    "Neo Navy"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": null,
+   "triggerText": null,
+   "image": "ST05-013",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-014": {
+   "code": "ST05-014",
+   "name": "Buena Festa",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 1,
+   "power": 0,
+   "counter": 2000,
+   "life": null,
+   "attribute": "Wisdom",
+   "types": [
+    "FILM",
+    "The Pirates Fest"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"FILM\" type card other than [Buena Festa] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+   "triggerText": null,
+   "image": "ST05-014",
+   "i18n": {},
+   "textHash": "211:WyJbT24gUGxheV0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-015": {
+   "code": "ST05-015",
+   "name": "Dr. Indigo",
+   "category": "Character",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 2,
+   "power": 4000,
+   "counter": 1000,
+   "life": null,
+   "attribute": "Wisdom",
+   "types": [
+    "FILM",
+    "Scientist",
+    "Golden Lion Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": null,
+   "triggerText": null,
+   "image": "ST05-015",
+   "i18n": {},
+   "textHash": "18:W251bGwsbnVsbF0=",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-016": {
+   "code": "ST05-016",
+   "name": "Lion's Threat Imperial Earth Bind",
+   "category": "Event",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 3,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "FILM",
+    "Golden Lion Pirates"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "[Main] DON!! -2: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+   "triggerText": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+   "image": "ST05-016",
+   "i18n": {},
+   "textHash": "164:WyJbTWFpbl0gRE9O",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  },
+  "ST05-017": {
+   "code": "ST05-017",
+   "name": "Union Armada",
+   "category": "Event",
+   "colors": [
+    "Purple"
+   ],
+   "cost": 2,
+   "power": null,
+   "counter": null,
+   "life": null,
+   "attribute": null,
+   "types": [
+    "FILM",
+    "The Pirates Fest"
+   ],
+   "rarity": "C",
+   "set": "ST-05",
+   "text": "[Counter] Up to 1 of your \"FILM\" type Leader or Character cards gains +4000 power during this battle. If that card is a Character, that Character cannot be K.O.'d during this turn.",
+   "triggerText": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+   "image": "ST05-017",
+   "i18n": {},
+   "textHash": "261:WyJbQ291bnRlcl0g",
+   "source": {
+    "primary": "ingested:src/data",
+    "fallbacks": []
+   },
+   "confidence": 0.95,
+   "fetchedAt": "2026-06-12T11:47:52.517Z"
+  }
+ },
+ "updatedAt": "2026-06-12T11:47:52.517Z"
+}

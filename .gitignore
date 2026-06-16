@@ -1,0 +1,19 @@
+# Dependencies (engine is zero-dep; this is for tooling only)
+node_modules/
+
+# OS
+.DS_Store
+*.swp
+
+# Card art is large + community-sourced; never commit it (copied in from a local
+# OPTCGSim StreamingAssets library on demand — see README "Asset pipeline").
+web/assets/cards/
+
+# Raw ingest dumps (regenerated from source; keep the normalized src/data/*.cards.js)
+data/raw/
+
+# Transient
+/tmp/
+*.log
+replay*.json
+!test/**/*.json

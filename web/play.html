@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GRAND LINE — vs AI (real engine)</title>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ocean-900:#070d16;--glass:rgba(18,34,54,.55);--gb:rgba(125,200,255,.14);
+--gold:#e8b54a;--gold3:#f6d488;--sea:#2fb6c9;--sea3:#6fd6e2;--blood:#e23d3d;--life:#3ddc84;
+--haki:#7b2ff7;--ink:#0d1320;--txt:#e8eef6;--dim:#93a4ba;
+--fd:'Pirata One',cursive;--fn:'Bebas Neue',sans-serif;--fu:'Inter',sans-serif;--ease:cubic-bezier(.34,1.4,.44,1)}
+*{box-sizing:border-box;margin:0;padding:0;user-select:none}
+body{background:radial-gradient(1400px 800px at 70% -10%,#13294a,var(--ocean-900) 55%),var(--ocean-900);
+color:var(--txt);font-family:var(--fu);height:100vh;display:flex;flex-direction:column;overflow:hidden}
+header{display:flex;align-items:center;gap:14px;padding:8px 18px;border-bottom:1px solid var(--gb);background:rgba(7,13,22,.8)}
+header .logo{font-family:var(--fd);font-size:20px;color:var(--gold3)}
+header .ph{font-family:var(--fn);letter-spacing:.15em;color:var(--sea3);font-size:15px}
+header .hint{font-size:12px;color:var(--dim);margin-left:auto;max-width:520px;text-align:right}
+.board{flex:1;display:flex;flex-direction:column;justify-content:space-between;padding:6px 14px;min-height:0;position:relative}
+.row{display:flex;align-items:center;justify-content:center;gap:8px;min-height:96px}
+.meta{display:flex;flex-direction:column;align-items:center;font-size:10px;color:var(--dim);gap:2px;min-width:64px}
+.meta b{font-family:var(--fn);font-size:16px;color:var(--txt)}
+.card{position:relative;width:74px;height:103px;border-radius:6px;flex-shrink:0;cursor:pointer;
+transition:transform .15s var(--ease),box-shadow .15s;box-shadow:0 4px 12px rgba(0,0,0,.5)}
+.card img{width:100%;height:100%;border-radius:6px;display:block;pointer-events:none}
+.card:hover{transform:translateY(-6px) scale(1.06);z-index:20}
+.card .pw{position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);background:var(--ink);
+border:1px solid var(--gold);border-radius:8px;font-family:var(--fn);font-size:12px;color:var(--gold3);
+padding:0 8px;pointer-events:none;white-space:nowrap}
+.card .dn{position:absolute;top:-7px;right:-6px;background:var(--haki);border-radius:8px;
+font-size:10px;font-weight:700;padding:1px 6px;pointer-events:none}
+.card .ab{position:absolute;top:-8px;left:-8px;width:24px;height:24px;border-radius:50%;background:var(--haki);
+border:2px solid #fff3;color:#fff;font-size:12px;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:5}
+.card.rested{transform:rotate(90deg) scale(.86)}
+.card.rested:hover{transform:rotate(90deg) scale(1.0)}
+.card.sel{outline:3px solid var(--gold);outline-offset:2px}
+.card.legal{outline:3px solid var(--life);outline-offset:2px;animation:pul 1.2s infinite}
+.card.tgt{outline:3px solid var(--blood);outline-offset:2px;animation:pul 1.2s infinite}
+@keyframes pul{50%{outline-offset:5px}}
+.back{background:repeating-linear-gradient(45deg,#16263c,#16263c 6px,#1b2e49 6px,#1b2e49 12px);
+border:1px solid #2c4668;border-radius:6px;width:74px;height:103px;position:relative}
+.back::after{content:"⚓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:.35;font-size:20px}
+.hand{display:flex;justify-content:center;gap:4px;padding:4px 0 10px;min-height:118px}
+.hand .card:hover{transform:translateY(-18px) scale(1.35);z-index:30}
+.hud{display:flex;gap:10px;align-items:center;padding:6px 16px;background:rgba(7,13,22,.78);border-top:1px solid var(--gb)}
+.btn{font-family:var(--fn);letter-spacing:.1em;font-size:15px;padding:9px 20px;border-radius:10px;border:1px solid transparent;
+cursor:pointer;color:var(--ink);background:linear-gradient(160deg,var(--gold3),var(--gold));transition:transform .12s var(--ease)}
+.btn:hover{transform:translateY(-2px)}
+.btn.gh{background:var(--glass);border-color:var(--gb);color:var(--txt)}
+.btn.rd{background:linear-gradient(160deg,#ff6b5e,var(--blood));color:#fff}
+.btn:disabled{filter:grayscale(.8) brightness(.5);cursor:not-allowed;transform:none}
+#log{flex:1;max-height:64px;overflow-y:auto;font-size:11px;display:flex;flex-direction:column-reverse;gap:2px}
+#log div{padding:1px 8px;border-left:2px solid var(--sea);color:var(--dim)}
+#log div.hot{color:var(--txt);border-left-color:var(--blood)}
+.don{display:inline-flex;width:30px;height:30px;border-radius:50%;border:2px solid var(--gold);align-items:center;
+justify-content:center;font-family:var(--fn);font-size:8px;color:var(--gold3);background:radial-gradient(circle at 35% 30%,#3a3f4d,#15181f);margin:1px}
+.don.r{filter:grayscale(.7) brightness(.55);transform:rotate(90deg)}
+#zoom{position:fixed;right:18px;top:60px;width:260px;display:none;z-index:50;pointer-events:none;
+box-shadow:0 20px 60px rgba(0,0,0,.7);border-radius:12px}
+#banner{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(7,13,22,.85);z-index:100;flex-direction:column;gap:18px}
+#banner h1{font-family:var(--fd);font-size:64px;color:var(--gold3)}
+#prompt{position:fixed;top:54px;left:50%;transform:translateX(-50%);background:var(--glass);border:1px solid var(--gold);
+border-radius:12px;padding:10px 22px;backdrop-filter:blur(12px);font-size:13px;z-index:60;display:none;gap:10px;align-items:center}
+</style>
+</head>
+<body>
+<header>
+  <span class="logo">⚓ GRAND LINE</span>
+  <span class="ph" id="ph">—</span>
+  <span class="hint" id="hint">Loading engine…</span>
+</header>
+<div class="board">
+  <div class="row" id="oppTop"></div>
+  <div class="row" id="oppChars"></div>
+  <div class="row" style="min-height:20px;font-family:var(--fn);letter-spacing:.2em;color:var(--gold3)" id="turnLbl"></div>
+  <div class="row" id="myChars"></div>
+  <div class="row" id="myTop"></div>
+</div>
+<div class="hand" id="hand"></div>
+<div class="hud">
+  <div id="log"></div>
+  <button class="btn gh" id="donBtn">ATTACH DON!!</button>
+  <button class="btn" id="mainBtn">END TURN</button>
+  <button class="btn rd" id="concedeBtn">CONCEDE</button>
+</div>
+<img id="zoom" alt="">
+<div id="prompt"></div>
+<div id="banner"><h1 id="bannerTxt"></h1><button class="btn" onclick="location.reload()">PLAY AGAIN</button></div>
+
+<script type="module">
+import { initGame, reduce, legalActions } from "../src/engine/reducer.js";
+import { DECKS, card, script } from "../src/engine/cards.js";
+import { effPower } from "../src/engine/power.js";
+import { chooseAction, whoseMove } from "../src/ai/agent.js";
+
+const HUMAN = 0, AI = 1;
+const q = new URLSearchParams(location.search);
+const pick = (k, dflt) => DECKS[q.get(k)] ? q.get(k) : dflt;
+const D0 = pick("p0", "ST01"), D1 = pick("p1", "ST02");
+document.title = `GRAND LINE — ${D0} vs ${D1} (AI)`;
+let state = initGame({ seed: Date.now() % 2147483647, decks: [DECKS[D0], DECKS[D1]] });
+let mode = null;          // null | 'don' | {attacker:id} | {trash:sourceId}
+let logShown = 0;
+
+const $ = id => document.getElementById(id);
+const setOf = code => code.split("-")[0];
+const img = code => `assets/cards/${setOf(code)}/${code}_small.jpg`;
+const big = code => `assets/cards/${setOf(code)}/${code}.png`;
+// deck picker in header
+$("hint").insertAdjacentHTML("beforebegin",
+  Object.keys(DECKS).map(k => `<a style="color:${k===D0?'var(--gold3)':'var(--dim)'};font-size:11px" href="?p0=${k}&p1=${D1}">${k}</a>`).join(" ") +
+  " vs " + Object.keys(DECKS).map(k => `<a style="color:${k===D1?'var(--gold3)':'var(--dim)'};font-size:11px" href="?p0=${D0}&p1=${k}">${k}</a>`).join(" "));
+
+function dispatch(a) {
+  try { state = reduce(state, a); } catch (e) { flash(e.message); return; }
+  mode = null;
+  render();
+  setTimeout(aiStep, 350);
+}
+function aiStep() {
+  let acted = false;
+  while (state.winner === null && whoseMove(state) === AI) {
+    const a = chooseAction(state, AI);
+    if (!a) break;
+    state = reduce(state, a);
+    acted = true;
+  }
+  if (acted) render();
+}
+function flash(msg) { $("hint").textContent = "⚠ " + msg; setTimeout(render, 1600); }
+
+function cardEl(code, opts = {}) {
+  const d = document.createElement("div");
+  d.className = "card" + (opts.rested ? " rested" : "") + (opts.cls ? " " + opts.cls : "");
+  d.innerHTML = `<img src="${img(code)}" alt="${card(code).name}">` +
+    (opts.power != null ? `<span class="pw">${opts.power}</span>` : "") +
+    (opts.don ? `<span class="dn">●${opts.don}</span>` : "");
+  d.onmouseenter = () => { $("zoom").src = big(code); $("zoom").style.display = "block"; };
+  d.onmouseleave = () => $("zoom").style.display = "none";
+  if (opts.onclick) d.onclick = opts.onclick;
+  if (opts.ability) {
+    const b = document.createElement("div");
+    b.className = "ab"; b.textContent = "⚡"; b.title = "Activate: Main";
+    b.onclick = e => { e.stopPropagation(); opts.ability(); };
+    d.appendChild(b);
+  }
+  return d;
+}
+function donRow(p) {
+  const w = document.createElement("div");
+  for (let i = 0; i < p.donActive; i++) w.innerHTML += '<span class="don">DON</span>';
+  for (let i = 0; i < p.donRested; i++) w.innerHTML += '<span class="don r">DON</span>';
+  return w;
+}
+function meta(label, val) {
+  const m = document.createElement("div");
+  m.className = "meta"; m.innerHTML = `<b>${val}</b>${label}`;
+  return m;
+}
+
+function render() {
+  const me = state.players[HUMAN], op = state.players[AI];
+  const acts = legalActions(state, HUMAN);
+  const has = (t, f) => acts.some(a => a.type === t && (!f || f(a)));
+
+  // header
+  $("ph").textContent = state.winner !== null ? "GAME OVER"
+    : state.pending ? state.pending.kind + " WINDOW"
+    : `TURN ${state.turn} · ${state.active === HUMAN ? "YOUR" : "AI"} MAIN`;
+  $("turnLbl").textContent = state.battle ? "⚔ BATTLE ⚔" : "";
+
+  // opp top: deck/trash/life/leader/don/hand-count
+  const ot = $("oppTop"); ot.innerHTML = "";
+  ot.append(meta("HAND", op.hand.length), meta("DECK", op.deck.length), meta("TRASH", op.trash.length), meta("LIFE", op.life.length));
+  ot.append(cardEl(op.leaderCode, {
+    rested: op.leaderRested, power: effPower(state, { seat: AI, id: "leader" }), don: op.leaderDon,
+    cls: targetable("leader") ? "tgt" : "", onclick: () => clickOpp("leader"),
+  }));
+  ot.append(donRow(op));
+
+  // opp chars
+  const oc = $("oppChars"); oc.innerHTML = "";
+  for (const c of op.chars) oc.append(cardEl(c.code, {
+    rested: c.rested, power: effPower(state, { seat: AI, id: c.iid }), don: c.attachedDon,
+    cls: targetable(c.iid) ? "tgt" : (choosable(AI, c.iid) ? "legal" : ""),
+    onclick: () => clickOpp(c.iid),
+  }));
+
+  // my chars
+  const mc = $("myChars"); mc.innerHTML = "";
+  for (const c of me.chars) {
+    const canAtk = has("DECLARE_ATTACK", a => a.attackerId === c.iid);
+    const canAb = has("ACTIVATE_MAIN", a => a.sourceId === c.iid);
+    mc.append(cardEl(c.code, {
+      rested: c.rested, power: effPower(state, { seat: HUMAN, id: c.iid }), don: c.attachedDon,
+      cls: mode?.attacker === c.iid ? "sel"
+          : choosable(HUMAN, c.iid) ? "legal"
+          : blockerLegal(c.iid) ? "legal"
+          : (canAtk || mode === "don") ? "legal" : "",
+      onclick: () => clickMine(c.iid),
+      ability: canAb ? () => activate(c.iid) : null,
+    }));
+  }
+  if (me.stage) {
+    const canAb = has("ACTIVATE_MAIN", a => a.sourceId === "stage");
+    mc.append(cardEl(me.stage.code, { rested: me.stage.rested,
+      ability: canAb ? () => activate("stage") : null }));
+  }
+
+  // my top
+  const mt = $("myTop"); mt.innerHTML = "";
+  const canLAtk = has("DECLARE_ATTACK", a => a.attackerId === "leader");
+  const canLAb = has("ACTIVATE_MAIN", a => a.sourceId === "leader");
+  mt.append(cardEl(me.leaderCode, {
+    rested: me.leaderRested, power: effPower(state, { seat: HUMAN, id: "leader" }), don: me.leaderDon,
+    cls: mode?.attacker === "leader" ? "sel" : choosable(HUMAN, "leader") ? "legal" : (canLAtk || mode === "don") ? "legal" : "",
+    onclick: () => clickMine("leader"),
+    ability: canLAb ? () => activate("leader") : null,
+  }));
+  mt.append(donRow(me));
+  mt.append(meta("LIFE", me.life.length), meta("DECK", me.deck.length), meta("TRASH", me.trash.length));
+
+  // hand
+  const h = $("hand"); h.innerHTML = "";
+  me.hand.forEach((code, i) => {
+    const playable = has("PLAY_CARD", a => a.handIndex === i);
+    const counterable = has("COUNTER_PLAY", a => a.handIndex === i) || has("COUNTER_EVENT", a => a.handIndex === i);
+    const trashable = mode?.trash != null;
+    h.append(cardEl(code, {
+      cls: trashable ? "tgt" : counterable ? "tgt" : playable ? "legal" : "",
+      power: card(code).counter ? "+" + card(code).counter : null,
+      onclick: () => clickHand(i),
+    }));
+  });
+
+  // buttons + prompts
+  $("donBtn").disabled = !has("ATTACH_DON");
+  $("donBtn").textContent = mode === "don" ? "CLICK A CARD…" : "ATTACH DON!!";
+  $("donBtn").onclick = () => { mode = mode === "don" ? null : "don"; render(); };
+  const mb = $("mainBtn");
+  if (has("COUNTER_PASS")) { mb.textContent = "PASS (NO COUNTER)"; mb.onclick = () => dispatch({ type: "COUNTER_PASS", seat: HUMAN }); mb.disabled = false; }
+  else if (has("BLOCK")) { mb.textContent = "NO BLOCK"; mb.onclick = () => dispatch({ type: "BLOCK", seat: HUMAN, blockerId: null }); mb.disabled = false; }
+  else { mb.textContent = "END TURN"; mb.onclick = () => dispatch({ type: "END_TURN", seat: HUMAN }); mb.disabled = !has("END_TURN"); }
+  $("concedeBtn").onclick = () => dispatch({ type: "CONCEDE", seat: HUMAN });
+
+  const pr = $("prompt");
+  if (state.phase === "MULLIGAN" && !me.mulliganDecided) {
+    showPrompt("Keep this hand?", [["KEEP", () => dispatch({ type: "MULLIGAN", seat: HUMAN, redraw: false })],
+                                   ["MULLIGAN", () => dispatch({ type: "MULLIGAN", seat: HUMAN, redraw: true })]]);
+  } else if (state.pending?.kind === "TRIGGER" && state.pending.seat === HUMAN) {
+    showPrompt(`Life card has a Trigger: ${card(state.pending.card).name}`,
+      [["ACTIVATE ★", () => dispatch({ type: "TRIGGER", seat: HUMAN, use: true })],
+       ["TO HAND", () => dispatch({ type: "TRIGGER", seat: HUMAN, use: false })]]);
+  } else if (state.pending?.kind === "CHOOSE" && state.pending.seat === HUMAN) {
+    const btns = state.pending.min === 0 ? [["SKIP", () => dispatch({ type: "CHOOSE", seat: HUMAN, selection: [] })]] : [];
+    showPrompt("Choose a highlighted target", btns);
+  } else pr.style.display = "none";
+
+  // hints + log
+  $("hint").textContent = mode?.trash != null ? "Pick a card from your HAND to trash as cost"
+    : state.pending?.kind === "COUNTER" && state.pending.seat === HUMAN
+    ? "Counter window: click a red-glowing card to counter, or PASS"
+    : mode?.attacker ? "Click a red-glowing enemy target"
+    : "Click glowing cards to act · ⚡ = ability · hover = zoom";
+  const lg = $("log");
+  while (logShown < state.log.length) {
+    const e = state.log[logShown++];
+    const d = document.createElement("div");
+    d.textContent = `T${e.t} · ${e.msg}`;
+    if (/attacks|K.O.|damage|wins|Trigger/.test(e.msg)) d.className = "hot";
+    lg.prepend(d);
+  }
+  if (state.winner !== null) {
+    $("bannerTxt").textContent = state.winner === HUMAN ? "🏆 VICTORY!" : "DEFEAT…";
+    $("banner").style.display = "flex";
+  }
+}
+
+// ---- interaction helpers ----
+function activate(sourceId) { // handles plain + trash-cost abilities
+  const acts = legalActions(state, HUMAN).filter(a => a.type === "ACTIVATE_MAIN" && a.sourceId === sourceId);
+  if (!acts.length) return;
+  if (acts[0].trashHandIndex != null) { mode = { trash: sourceId }; render(); }
+  else dispatch(acts[0]);
+}
+const choosable = (seat, id) => state.pending?.kind === "CHOOSE" && state.pending.seat === HUMAN &&
+  state.pending.options.some(o => o.seat === seat && o.id === id);
+const blockerLegal = iid => legalActions(state, HUMAN).some(a => a.type === "BLOCK" && a.blockerId === iid);
+const targetable = id => mode?.attacker != null &&
+  legalActions(state, HUMAN).some(a => a.type === "DECLARE_ATTACK" && a.attackerId === mode.attacker && a.targetId === id);
+
+function clickHand(i) {
+  const acts = legalActions(state, HUMAN);
+  if (mode?.trash != null) { // paying a trash-from-hand cost (e.g. ST02 Kid leader)
+    const a = acts.find(a => a.type === "ACTIVATE_MAIN" && a.sourceId === mode.trash && a.trashHandIndex === i);
+    if (a) return dispatch(a);
+  }
+  const counter = acts.find(a => (a.type === "COUNTER_PLAY" || a.type === "COUNTER_EVENT") && a.handIndex === i);
+  if (counter) return dispatch(counter);
+  const play = acts.find(a => a.type === "PLAY_CARD" && a.handIndex === i);
+  if (play) return dispatch(play);
+  flash("Can't play that now");
+}
+function clickMine(id) {
+  if (choosable(HUMAN, id)) return dispatch({ type: "CHOOSE", seat: HUMAN, selection: [{ seat: HUMAN, id }] });
+  if (blockerLegal(id)) return dispatch({ type: "BLOCK", seat: HUMAN, blockerId: id });
+  if (mode === "don") return dispatch({ type: "ATTACH_DON", seat: HUMAN, targetId: id });
+  const canAtk = legalActions(state, HUMAN).some(a => a.type === "DECLARE_ATTACK" && a.attackerId === id);
+  if (canAtk) { mode = { attacker: id }; render(); }
+}
+function clickOpp(id) {
+  if (choosable(AI, id)) return dispatch({ type: "CHOOSE", seat: HUMAN, selection: [{ seat: AI, id }] });
+  if (targetable(id)) return dispatch({ type: "DECLARE_ATTACK", seat: HUMAN, attackerId: mode.attacker, targetId: id });
+}
+function showPrompt(text, buttons) {
+  const pr = $("prompt");
+  pr.innerHTML = `<span>${text}</span>`;
+  for (const [label, fn] of buttons) {
+    const b = document.createElement("button");
+    b.className = "btn"; b.style.fontSize = "13px"; b.style.padding = "6px 14px";
+    b.textContent = label; b.onclick = fn;
+    pr.appendChild(b);
+  }
+  pr.style.display = "flex";
+}
+render();
+</script>
+</body>
+</html>

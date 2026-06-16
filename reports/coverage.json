@@ -1,0 +1,4566 @@
+{
+  "generated": "2026-06-16T13:02:55.297Z",
+  "total": 651,
+  "implemented": 216,
+  "partial": 1,
+  "unsupported": 434,
+  "rows": [
+    {
+      "code": "ST01-001",
+      "name": "Monkey.D.Luffy",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-002",
+      "name": "Usopp",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-003",
+      "name": "Karoo",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-004",
+      "name": "Sanji",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-005",
+      "name": "Jinbe",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-006",
+      "name": "Tony Tony.Chopper",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-007",
+      "name": "Nami",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-008",
+      "name": "Nico Robin",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-009",
+      "name": "Nefeltari Vivi",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-010",
+      "name": "Franky",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-011",
+      "name": "Brook",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-012",
+      "name": "Monkey.D.Luffy",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-013",
+      "name": "Roronoa Zoro",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-014",
+      "name": "Guard Point",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-015",
+      "name": "Gum-Gum Jet Pistol",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-016",
+      "name": "Diable Jambe",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST01-017",
+      "name": "Thousand Sunny",
+      "set": "ST-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-001",
+      "name": "Eustass\"Captain\"Kid",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-002",
+      "name": "Vito",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-003",
+      "name": "Urouge",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-004",
+      "name": "Capone\"Gang\"Bege",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-005",
+      "name": "Killer",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-006",
+      "name": "Koby",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-007",
+      "name": "Jewelry Bonney",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-008",
+      "name": "Scratchmen Apoo",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-009",
+      "name": "Trafalgar Law",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-010",
+      "name": "Basil Hawkins",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-011",
+      "name": "Heat",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-012",
+      "name": "Bepo",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-013",
+      "name": "Eustass\"Captain\"Kid",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-014",
+      "name": "X.Drake",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-015",
+      "name": "Scalpel",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-016",
+      "name": "Repel",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST02-017",
+      "name": "Straw Sword",
+      "set": "ST-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-001",
+      "name": "Crocodile",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-002",
+      "name": "Edward Weevil",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-003",
+      "name": "Crocodile",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-004",
+      "name": "Gecko Moria",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-005",
+      "name": "Dracule Mihawk",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-006",
+      "name": "Jinbe",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-007",
+      "name": "Sentomaru",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-008",
+      "name": "Trafalgar Law",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-009",
+      "name": "Donquixote Doflamingo",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-010",
+      "name": "Bartholomew Kuma",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-011",
+      "name": "Buggy",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-012",
+      "name": "Pacifista",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-013",
+      "name": "Boa Hancock",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-014",
+      "name": "Marshall.D.Teach",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-015",
+      "name": "Sables",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-016",
+      "name": "Thrust Pad Cannon",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST03-017",
+      "name": "Love-Love Mellow",
+      "set": "ST-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-001",
+      "name": "Kaido",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-002",
+      "name": "Ulti",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-003",
+      "name": "Kaido",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-004",
+      "name": "King",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-005",
+      "name": "Queen",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-006",
+      "name": "Sasaki",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-007",
+      "name": "Sheepshead",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-008",
+      "name": "Jack",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-009",
+      "name": "Ginrummy",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-010",
+      "name": "Who's.Who",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-011",
+      "name": "Black Maria",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-012",
+      "name": "Page One",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-013",
+      "name": "X.Drake",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-014",
+      "name": "Lead Performer \"Disaster\"",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-015",
+      "name": "Brachio Bomber",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-016",
+      "name": "Blast Breath",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST04-017",
+      "name": "Onigashima Island",
+      "set": "ST-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-001",
+      "name": "Shanks",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-002",
+      "name": "Ain",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-003",
+      "name": "Ann",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-004",
+      "name": "Uta",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-005",
+      "name": "Carina",
+      "set": "ST-05",
+      "status": "partial",
+      "note": "trash-cost is type-agnostic (FILM filter on cost pending typed-cost support)"
+    },
+    {
+      "code": "ST05-006",
+      "name": "Gild Tesoro",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-007",
+      "name": "Gordon",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-008",
+      "name": "Shiki",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-009",
+      "name": "Scarlet",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-010",
+      "name": "Zephyr",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-011",
+      "name": "Douglas Bullet",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-012",
+      "name": "Baccarat",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-013",
+      "name": "Bins",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-014",
+      "name": "Buena Festa",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-015",
+      "name": "Dr. Indigo",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-016",
+      "name": "Lion's Threat Imperial Earth Bind",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "ST05-017",
+      "name": "Union Armada",
+      "set": "ST-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-001",
+      "name": "Roronoa Zoro",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-002",
+      "name": "Trafalgar Law",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-003",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-004",
+      "name": "Usopp",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-005",
+      "name": "Uta",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-006",
+      "name": "Otama",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-007",
+      "name": "Caribou",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-008",
+      "name": "Cavendish (Box Topper)",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-009",
+      "name": "Carrot",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-010",
+      "name": "Komachiyo",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-011",
+      "name": "Gordon",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-012",
+      "name": "Sai",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-013",
+      "name": "Sanji",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-014",
+      "name": "Jinbe",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-015",
+      "name": "Tony Tony.Chopper",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-016",
+      "name": "Nami",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-017",
+      "name": "Nico Robin",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-018",
+      "name": "Hajrudin",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-019",
+      "name": "Bartolomeo",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-020",
+      "name": "Hyogoro",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-021",
+      "name": "Franky",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-022",
+      "name": "Brook",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-023",
+      "name": "Marco",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-024",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-025",
+      "name": "Roronoa Zoro",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-026",
+      "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-027",
+      "name": "Round Table",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-028",
+      "name": "Green Star Rafflesia",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-029",
+      "name": "Radical Beam!!",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-030",
+      "name": "In Two Years!! At the Sabaody Archipelago!!",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-031",
+      "name": "Kouzuki Oden",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-032",
+      "name": "Ashura Doji",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-033",
+      "name": "Izo",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-034",
+      "name": "Inuarashi",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-035",
+      "name": "Okiku",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-036",
+      "name": "Otsuru",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-037",
+      "name": "Kawamatsu",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-038",
+      "name": "Kanjuro",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-039",
+      "name": "Killer",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-040",
+      "name": "Kin'emon",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-041",
+      "name": "Kouzuki Momonosuke",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-042",
+      "name": "Komurasaki",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-043",
+      "name": "Shinobu",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-044",
+      "name": "Shachi",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-045",
+      "name": "Jean Bart",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-046",
+      "name": "Denjiro",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-047",
+      "name": "Trafalgar Law",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-048",
+      "name": "Nekomamushi",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-049",
+      "name": "Bepo",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-050",
+      "name": "Penguin",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-051",
+      "name": "Eustass\"Captain\"Kid",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-052",
+      "name": "Raizo",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-053",
+      "name": "Wire",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-054",
+      "name": "X.Drake",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-055",
+      "name": "You Can Be My Samurai!!",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-056",
+      "name": "Demon Face",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-057",
+      "name": "Paradise Waterfall",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-058",
+      "name": "Punk Gibson",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-059",
+      "name": "BE-BENG!!",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-060",
+      "name": "Donquixote Doflamingo",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-061",
+      "name": "Kaido",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-062",
+      "name": "Crocodile",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-063",
+      "name": "Arlong",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-064",
+      "name": "Alvida",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-065",
+      "name": "Vergo",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-066",
+      "name": "Krieg",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-067",
+      "name": "Crocodile",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-068",
+      "name": "Gecko Moria",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-069",
+      "name": "Caesar Clown",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-070",
+      "name": "Dracule Mihawk",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-071",
+      "name": "Jinbe",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-072",
+      "name": "Smiley",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-073",
+      "name": "Donquixote Doflamingo",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-074",
+      "name": "Bartholomew Kuma",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-075",
+      "name": "Pacifista",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-076",
+      "name": "Bellamy",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-077",
+      "name": "Perona",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-078",
+      "name": "Boa Hancock",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-079",
+      "name": "Ms. All Sunday",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-080",
+      "name": "Miss Doublefinger(Zala)",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-081",
+      "name": "Mocha",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-082",
+      "name": "Monet",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-083",
+      "name": "Mr.1 (Daz.Bonez)",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-084",
+      "name": "Mr.2.Bon.Kurei (Bentham)",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-085",
+      "name": "Mr.3 (Galdino)",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-086",
+      "name": "Overheat",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-087",
+      "name": "Officer Agents",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-088",
+      "name": "Desert Spada",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-089",
+      "name": "Crescent Cutlass",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-090",
+      "name": "Baroque Works",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-091",
+      "name": "King",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-092",
+      "name": "Urashima",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-093",
+      "name": "Ulti",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-094",
+      "name": "Kaido",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-095",
+      "name": "Kyoshirou",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-096",
+      "name": "King",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-097",
+      "name": "Queen",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-098",
+      "name": "Kurozumi Orochi",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-099",
+      "name": "Kurozumi Semimaru",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-100",
+      "name": "Kurozumi Higurashi",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-101",
+      "name": "Sasaki",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-102",
+      "name": "Jack",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-103",
+      "name": "Scratchmen Apoo",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-104",
+      "name": "Speed",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-105",
+      "name": "Bao Huang",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-106",
+      "name": "Basil Hawkins",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-107",
+      "name": "Babanuki",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-108",
+      "name": "Hitokiri Kamazo",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-109",
+      "name": "Who's.Who (Box Topper)",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-110",
+      "name": "Fukurokuju",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-111",
+      "name": "Black Maria",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-112",
+      "name": "Page One",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-113",
+      "name": "Holedem",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-114",
+      "name": "X.Drake",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-115",
+      "name": "Elephant's Marchoo",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-116",
+      "name": "Artificial Devil Fruit SMILE",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-117",
+      "name": "Sheep's Horn",
+      "set": "OP-01",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP01-118",
+      "name": "Ulti-Mortar",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-119",
+      "name": "Thunder Bagua",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-120",
+      "name": "Shanks",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP01-121",
+      "name": "Yamato",
+      "set": "OP-01",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-001",
+      "name": "Edward.Newgate",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-002",
+      "name": "Monkey.D.Garp",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-003",
+      "name": "Atmos",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-004",
+      "name": "Edward.Newgate",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-005",
+      "name": "Curly.Dadan",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-006",
+      "name": "Kingdew",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-007",
+      "name": "Thatch",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-008",
+      "name": "Jozu",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-009",
+      "name": "Squard",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-010",
+      "name": "Dogura",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-011",
+      "name": "Vista",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-012",
+      "name": "Blenheim",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-013",
+      "name": "Portgas.D.Ace",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-014",
+      "name": "Whitey Bay",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-015",
+      "name": "Makino",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-016",
+      "name": "Magura",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-017",
+      "name": "Masked Deuce",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-018",
+      "name": "Marco",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-019",
+      "name": "Rakuyo",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-020",
+      "name": "LittleOars Jr.",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-021",
+      "name": "Seaquake",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-022",
+      "name": "Whitebeard Pirates",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-023",
+      "name": "You May Be a Fool...but I Still Love You",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-024",
+      "name": "Moby Dick",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-025",
+      "name": "Kin'emon",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-026",
+      "name": "Sanji",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-027",
+      "name": "Inuarashi",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-028",
+      "name": "Usopp",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-029",
+      "name": "Carrot",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-030",
+      "name": "Kouzuki Oden",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-031",
+      "name": "Kouzuki Toki",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-032",
+      "name": "Shishilian",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-033",
+      "name": "Jinbe",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-034",
+      "name": "Tony Tony.Chopper",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-035",
+      "name": "Trafalgar Law",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-036",
+      "name": "Nami",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-037",
+      "name": "Nico Robin",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-038",
+      "name": "Nekomamushi",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-039",
+      "name": "Franky",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-040",
+      "name": "Brook",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-041",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-042",
+      "name": "Yamato",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-043",
+      "name": "Roronoa Zoro",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-044",
+      "name": "Wanda",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-045",
+      "name": "Three Sword Style Oni Giri",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-046",
+      "name": "Diable Jambe Venaison Shoot",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-047",
+      "name": "Paradise Totsuka",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-048",
+      "name": "Land of Wano",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-049",
+      "name": "Emporio.Ivankov",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-050",
+      "name": "Inazuma",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-051",
+      "name": "Emporio.Ivankov",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-052",
+      "name": "Cabaji",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-053",
+      "name": "Crocodile",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-054",
+      "name": "Gecko Moria",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-055",
+      "name": "Dracule Mihawk",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-056",
+      "name": "Donquixote Doflamingo",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-057",
+      "name": "Bartholomew Kuma",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-058",
+      "name": "Buggy",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-059",
+      "name": "Boa Hancock",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-060",
+      "name": "Mohji",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-061",
+      "name": "Morley",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-062",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-063",
+      "name": "Mr.1 (Daz.Bonez)",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-064",
+      "name": "Mr.2.Bon.Kurei (Bentham)",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-065",
+      "name": "Mr.3 (Galdino)",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-066",
+      "name": "Impel Down All Stars",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-067",
+      "name": "Arabesque Brick Fist",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-068",
+      "name": "Gum-Gum Rain",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-069",
+      "name": "DEATH WINK",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-070",
+      "name": "New Kama Land",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-071",
+      "name": "Magellan",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-072",
+      "name": "Zephyr",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-073",
+      "name": "Little Sadi",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-074",
+      "name": "Saldeath",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-075",
+      "name": "Shiki",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-076",
+      "name": "Shiryu",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-077",
+      "name": "Solitaire",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-078",
+      "name": "Daifugo",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-079",
+      "name": "Douglas Bullet",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-080",
+      "name": "Dobon",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-081",
+      "name": "Domino",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-082",
+      "name": "Byrnndi World",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-083",
+      "name": "Hannyabal",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-084",
+      "name": "Blugori",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-085",
+      "name": "Magellan",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-086",
+      "name": "Minokoala",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-087",
+      "name": "Minotaur",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-088",
+      "name": "Sphinx",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-089",
+      "name": "Judgment of Hell",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-090",
+      "name": "Hydra",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-091",
+      "name": "Venom Road",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-092",
+      "name": "Impel Down",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-093",
+      "name": "Smoker",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-094",
+      "name": "Isuka",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-095",
+      "name": "Onigumo",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-096",
+      "name": "Kuzan",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-097",
+      "name": "Komille",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-098",
+      "name": "Koby",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-099",
+      "name": "Sakazuki",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-100",
+      "name": "Jango",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-101",
+      "name": "Strawberry",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-102",
+      "name": "Smoker",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-103",
+      "name": "Sengoku",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-104",
+      "name": "Sentomaru",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-105",
+      "name": "Tashigi",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-106",
+      "name": "Tsuru",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-107",
+      "name": "Doberman",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-108",
+      "name": "Donquixote Rosinante",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-109",
+      "name": "Jaguar.D.Saul",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-110",
+      "name": "Hina",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-111",
+      "name": "Fullbody",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-112",
+      "name": "Bell-mere",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-113",
+      "name": "Helmeppo",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-114",
+      "name": "Borsalino",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-115",
+      "name": "Monkey.D.Garp",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-116",
+      "name": "Yamakaji",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-117",
+      "name": "Ice Age",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-118",
+      "name": "Yasakani Sacred Jewel",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-119",
+      "name": "Meteor Volcano",
+      "set": "OP-02",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP02-120",
+      "name": "Uta",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP02-121",
+      "name": "Kuzan",
+      "set": "OP-02",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-002",
+      "name": "Adio",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-003",
+      "name": "Izo",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-004",
+      "name": "Curiel",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-005",
+      "name": "Thatch",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-006",
+      "name": "Speed Jil",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-007",
+      "name": "Namule",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-008",
+      "name": "Buggy",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-009",
+      "name": "Haruta",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-010",
+      "name": "Fossa",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-011",
+      "name": "Blamenco",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-012",
+      "name": "Marshall.D.Teach",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-013",
+      "name": "Marco",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-014",
+      "name": "Monkey.D.Garp",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-015",
+      "name": "Lim",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-016",
+      "name": "Flame Emperor",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-017",
+      "name": "Cross Fire",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-018",
+      "name": "Fire Fist",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-019",
+      "name": "Fiery Doll",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-020",
+      "name": "Striker",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-023",
+      "name": "Alvida",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-024",
+      "name": "Gin",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-025",
+      "name": "Krieg",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-026",
+      "name": "Kuroobi",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-027",
+      "name": "Sham",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-028",
+      "name": "Jango",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-029",
+      "name": "Chew",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-030",
+      "name": "Nami",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-031",
+      "name": "Pearl",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-032",
+      "name": "Buggy",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-033",
+      "name": "Hatchan",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-034",
+      "name": "Buchi",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-035",
+      "name": "Momoo",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-036",
+      "name": "Out-of-the-Bag",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-037",
+      "name": "Tooth Attack",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-038",
+      "name": "Deathly Poison Gas Bomb MH5",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-039",
+      "name": "One, Two, Jango",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-041",
+      "name": "Usopp",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-042",
+      "name": "Usopp's Pirate Crew",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-043",
+      "name": "Gaimon",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-044",
+      "name": "Kaya",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-045",
+      "name": "Carne",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-046",
+      "name": "Genzo",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-047",
+      "name": "Zeff",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-048",
+      "name": "Nojiko",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-049",
+      "name": "Patty",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-050",
+      "name": "Boodle",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-051",
+      "name": "Bell-mere",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-052",
+      "name": "Merry",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-053",
+      "name": "Yosaku & Johnny",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-054",
+      "name": "Usopp's Rubber Band of Doom!!!",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-055",
+      "name": "Gum-Gum Giant Gavel",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-056",
+      "name": "Sanji's Pilaf",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-057",
+      "name": "Three Thousand Worlds",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-059",
+      "name": "Kaku",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-060",
+      "name": "Kalifa",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-061",
+      "name": "Kiwi & Mozu",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-062",
+      "name": "Kokoro",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-063",
+      "name": "Zambai",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-064",
+      "name": "Tilestone",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-065",
+      "name": "Chimney & Gonbe",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-066",
+      "name": "Paulie",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-067",
+      "name": "Peepley Lulu",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-068",
+      "name": "Minozebra",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-069",
+      "name": "Minorhinoceros",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-070",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-071",
+      "name": "Rob Lucci",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-072",
+      "name": "Gum-Gum Jet Gatling",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-073",
+      "name": "Hull Dismantler Slash",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-074",
+      "name": "Top Knot",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-075",
+      "name": "Galley-La Company",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-078",
+      "name": "Issho",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-079",
+      "name": "Vergo",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-080",
+      "name": "Kaku",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-081",
+      "name": "Kalifa",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-082",
+      "name": "Kumadori",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-084",
+      "name": "Jerry",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-085",
+      "name": "Jabra",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-086",
+      "name": "Spandam",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-087",
+      "name": "Nero",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-088",
+      "name": "Fukurou",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-089",
+      "name": "Brannew",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-090",
+      "name": "Blueno",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-091",
+      "name": "Helmeppo",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-092",
+      "name": "Rob Lucci",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-093",
+      "name": "Wanze",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-094",
+      "name": "Air Door",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-095",
+      "name": "Soap Sheep",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-096",
+      "name": "Tempest Kick Sky Slicer",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-097",
+      "name": "Six King Pistol",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-098",
+      "name": "Enies Lobby",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-100",
+      "name": "Kingbaum",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-101",
+      "name": "Camie",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-102",
+      "name": "Sanji",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-103",
+      "name": "Bobbin the Disposer",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-104",
+      "name": "Shirley",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-105",
+      "name": "Charlotte Oven",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-106",
+      "name": "Charlotte Opera",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-107",
+      "name": "Charlotte Galette",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-108",
+      "name": "Charlotte Cracker",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-110",
+      "name": "Charlotte Smoothie",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-111",
+      "name": "Charlotte Praline",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-112",
+      "name": "Charlotte Pudding",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-113",
+      "name": "Charlotte Perospero",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-114",
+      "name": "Charlotte Linlin",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-115",
+      "name": "Streusen",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-116",
+      "name": "Shirahoshi",
+      "set": "OP-03",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP03-117",
+      "name": "Napoleon",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-118",
+      "name": "Ikoku Sovereignty",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-119",
+      "name": "Buzz Cut Mochi",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-120",
+      "name": "Tropical Torment",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-121",
+      "name": "Thunder Bolt",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-122",
+      "name": "Sogeking",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP03-123",
+      "name": "Charlotte Katakuri",
+      "set": "OP-03",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-001",
+      "name": "Nefeltari Vivi",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-002",
+      "name": "Igaram",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-003",
+      "name": "Usopp",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-004",
+      "name": "Karoo",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-005",
+      "name": "Kung Fu Jugon",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-006",
+      "name": "Koza",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-007",
+      "name": "Sanji",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-008",
+      "name": "Chaka",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-009",
+      "name": "Super Spot-Billed Duck Troops",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-010",
+      "name": "Tony Tony.Chopper",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-011",
+      "name": "Nami",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-012",
+      "name": "Nefeltari Cobra",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-013",
+      "name": "Pell",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-014",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-015",
+      "name": "Roronoa Zoro",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-016",
+      "name": "Bad Manners Kick Course",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-017",
+      "name": "Happiness Punch",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-018",
+      "name": "Enchanting Vertigo Dance",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-019",
+      "name": "Donquixote Doflamingo",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-020",
+      "name": "Issho",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-021",
+      "name": "Viola",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-023",
+      "name": "Kuro",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-024",
+      "name": "Sugar",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-026",
+      "name": "Senor Pink",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-028",
+      "name": "Diamante",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-029",
+      "name": "Dellinger",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-030",
+      "name": "Trebol",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-031",
+      "name": "Donquixote Doflamingo",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-032",
+      "name": "Baby 5",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-033",
+      "name": "Machvise",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-034",
+      "name": "Lao.G",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-035",
+      "name": "Spiderweb",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-036",
+      "name": "Donquixote Family",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-037",
+      "name": "Flapping Thread",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-038",
+      "name": "The Weak Do Not Have the Right to Choose How They Die!!!",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-039",
+      "name": "Rebecca",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-040",
+      "name": "Queen",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-041",
+      "name": "Apis",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-042",
+      "name": "Ipponmatsu",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-043",
+      "name": "Ulti",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-044",
+      "name": "Kaido",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-045",
+      "name": "King",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-046",
+      "name": "Queen",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-047",
+      "name": "Ice Oni",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-048",
+      "name": "Sasaki",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-049",
+      "name": "Jack",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-050",
+      "name": "Hanger",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-051",
+      "name": "Who's.Who",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-052",
+      "name": "Black Maria",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-053",
+      "name": "Page One",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-055",
+      "name": "Plague Rounds",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-056",
+      "name": "Gum-Gum Red Roc",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-057",
+      "name": "Dragon Twister Demolition Breath",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-058",
+      "name": "Crocodile",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-060",
+      "name": "Crocodile",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-063",
+      "name": "Franky",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-064",
+      "name": "Ms. All Sunday",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-065",
+      "name": "Miss.Goldenweek(Marianne)",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-066",
+      "name": "Miss.Valentine(Mikita)",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-067",
+      "name": "Miss.MerryChristmas(Drophy)",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-069",
+      "name": "Mr.2.Bon.Kurei (Bentham)",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-070",
+      "name": "Mr.3 (Galdino)",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-071",
+      "name": "Mr.4 (Babe)",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-072",
+      "name": "Mr.5 (Gem) (Alternate Art)",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-073",
+      "name": "Mr.13 & Ms.Friday",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-074",
+      "name": "Colors Trap",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-075",
+      "name": "Nez-Palm Cannon",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-076",
+      "name": "Weakness...Is an Unforgivable Sin.",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-079",
+      "name": "Orlumbus",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-080",
+      "name": "Gyats",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-081",
+      "name": "Cavendish",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-082",
+      "name": "Kyros",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-083",
+      "name": "Sabo",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-084",
+      "name": "Stussy",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-085",
+      "name": "Suleiman",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-087",
+      "name": "Trafalgar Law",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-088",
+      "name": "Hajrudin",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-089",
+      "name": "Bartolomeo",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-090",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-091",
+      "name": "Leo",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-092",
+      "name": "Rebecca",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-093",
+      "name": "Gum-Gum King Kong Gun",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-094",
+      "name": "Trueno Bastardo",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-095",
+      "name": "Barrier!!",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-098",
+      "name": "Toko",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-099",
+      "name": "Olin",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-100",
+      "name": "Capone\"Gang\"Bege",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-101",
+      "name": "Carmel",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-102",
+      "name": "Kin'emon",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-103",
+      "name": "Kouzuki Hiyori",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-104",
+      "name": "Sanji",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-105",
+      "name": "Charlotte Amande",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-107",
+      "name": "Charlotte Perospero",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-108",
+      "name": "Charlotte Moscato",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-111",
+      "name": "Hera",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-112",
+      "name": "Yamato",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-114",
+      "name": "Randolph",
+      "set": "OP-04",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP04-115",
+      "name": "Gun Modoki",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-116",
+      "name": "Diable Jambe Joue Shot",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-117",
+      "name": "Heavenly Fire",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-118",
+      "name": "Nefeltari Vivi",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP04-119",
+      "name": "Donquixote Rosinante",
+      "set": "OP-04",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-001",
+      "name": "Sabo",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-002",
+      "name": "Belo Betty",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-003",
+      "name": "Inazuma",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-004",
+      "name": "Emporio.Ivankov",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-005",
+      "name": "Karasu",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-006",
+      "name": "Koala",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-007",
+      "name": "Sabo",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-008",
+      "name": "Chaka",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-009",
+      "name": "Toh-Toh",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-010",
+      "name": "Nico Robin",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-011",
+      "name": "Bartholomew Kuma",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-012",
+      "name": "Hack",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-013",
+      "name": "Bunny Joe",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-014",
+      "name": "Pell",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-015",
+      "name": "Belo Betty",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-016",
+      "name": "Morley",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-017",
+      "name": "Lindbergh",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-018",
+      "name": "Emporio Energy Hormone",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-019",
+      "name": "Fire Fist",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-020",
+      "name": "Four Thousand-Brick Fist",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-022",
+      "name": "Donquixote Rosinante",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-023",
+      "name": "Vergo",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-025",
+      "name": "Gladius",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-026",
+      "name": "Sarquiss",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-027",
+      "name": "Trafalgar Law",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-028",
+      "name": "Donquixote Doflamingo",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-030",
+      "name": "Donquixote Rosinante",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-031",
+      "name": "Buffalo",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-032",
+      "name": "Pica",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-033",
+      "name": "Baby 5",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-034",
+      "name": "Baby 5",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-035",
+      "name": "Bellamy",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-036",
+      "name": "Monet",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-037",
+      "name": "Because the Side of Justice Will Be Whichever Side Wins!!",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-038",
+      "name": "Charlestone",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-039",
+      "name": "Stick-Stickem Meteora",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-041",
+      "name": "Sakazuki",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-042",
+      "name": "Issho",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-043",
+      "name": "Ulti",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-044",
+      "name": "John Giant",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-045",
+      "name": "Stainless",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-046",
+      "name": "Dalmatian",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-047",
+      "name": "Basil Hawkins",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-048",
+      "name": "Bastille",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-050",
+      "name": "Hina",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-051",
+      "name": "Borsalino",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-052",
+      "name": "Maynard",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-053",
+      "name": "Mozambia",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-054",
+      "name": "Monkey.D.Garp",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-055",
+      "name": "X.Drake",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-056",
+      "name": "X.Barrels",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-057",
+      "name": "Hound Blaze",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-058",
+      "name": "It's a Waste of Human Life!!",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-059",
+      "name": "Let Us Begin the World of Violence!!",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-060",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-061",
+      "name": "Uso-Hachi",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-062",
+      "name": "O-Nami",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-063",
+      "name": "O-Robi",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-064",
+      "name": "Killer",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-065",
+      "name": "San-Gorou",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-066",
+      "name": "Jinbe",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-067",
+      "name": "Zoro-Juurou",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-068",
+      "name": "Chopa-Emon",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-069",
+      "name": "Trafalgar Law",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-070",
+      "name": "Fra-Nosuke",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-071",
+      "name": "Bepo",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-072",
+      "name": "Hone-Kichi",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-073",
+      "name": "Miss Doublefinger(Zala)",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-074",
+      "name": "Eustass\"Captain\"Kid",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-076",
+      "name": "When You're at Sea You Fight against Pirates!!",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-077",
+      "name": "Gamma Knife",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-078",
+      "name": "Punk Rotten",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-079",
+      "name": "Viola",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-080",
+      "name": "Elizabello II",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-081",
+      "name": "One-Legged Toy Soldier",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-082",
+      "name": "Shirahoshi",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-083",
+      "name": "Sterry",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-084",
+      "name": "Saint Charlos",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-085",
+      "name": "Nefeltari Cobra",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-086",
+      "name": "Nefeltari Vivi",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-087",
+      "name": "Hakuba",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-088",
+      "name": "Mansherry",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-090",
+      "name": "Riku Doldo III",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-091",
+      "name": "Rebecca",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-092",
+      "name": "Saint Rosward",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-093",
+      "name": "Rob Lucci",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-094",
+      "name": "Haute Couture Patch Work",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-095",
+      "name": "Dragon Claw",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-096",
+      "name": "I Bid 500 Million!!",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-098",
+      "name": "Enel",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-099",
+      "name": "Amazon",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-100",
+      "name": "Enel",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-101",
+      "name": "Ohm",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-102",
+      "name": "Gedatsu",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-104",
+      "name": "Conis",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-105",
+      "name": "Satori",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-106",
+      "name": "Shura",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-107",
+      "name": "Lieutenant Spacey",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-108",
+      "name": "Nola",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-109",
+      "name": "Pagaya",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-110",
+      "name": "Holly",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-111",
+      "name": "Hotori",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-112",
+      "name": "Captain McKinley",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-113",
+      "name": "Yama",
+      "set": "OP-05",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP05-114",
+      "name": "El Thor",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-115",
+      "name": "Two-Hundred Million Volts Amaru",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-116",
+      "name": "Hino Bird Zap",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-118",
+      "name": "Kaido",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP05-119",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-05",
+      "status": "unsupported",
+      "note": ""
+    }
+  ]
+}

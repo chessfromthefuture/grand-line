@@ -1,0 +1,68 @@
+{
+  "generated": "2026-06-16T11:57:45.699Z",
+  "totalCards": 198,
+  "supportedCards": 121,
+  "unsupportedCards": 77,
+  "supportPct": 61.1,
+  "cardsRequiringReview": 77,
+  "cardsRequiringEngineWork": 0,
+  "cardsRequiringEscapeHatch": 0,
+  "metrics": {
+    "enginePct": 100,
+    "dslPct": 100,
+    "cardCoveragePct": 61.1,
+    "setsCompletePct": 9.3,
+    "replayCoveragePct": 100,
+    "testPassPct": 100
+  },
+  "engineWindows": [
+    "MULLIGAN",
+    "CHOOSE",
+    "BLOCK",
+    "COUNTER",
+    "TRIGGER",
+    "REPLACE",
+    "ORDER"
+  ],
+  "dslTimings": [
+    "onPlay",
+    "activateMain",
+    "whenAttacking",
+    "onBlock",
+    "onKO",
+    "onOpponentAttack",
+    "endOfYourTurn",
+    "afterBattleVsChar",
+    "trigger",
+    "counterEvent",
+    "mainEvent",
+    "auras",
+    "globalAuras",
+    "keywords",
+    "grants",
+    "handCost",
+    "onWouldKO",
+    "schedule(delayed)",
+    "custom(escape)"
+  ],
+  "setsIngested": [
+    "ST-01",
+    "ST-02",
+    "ST-03",
+    "ST-04",
+    "ST-05",
+    "OP-01"
+  ],
+  "setsComplete": [
+    "ST-01",
+    "ST-02",
+    "ST-03",
+    "ST-04",
+    "ST-05"
+  ],
+  "tests": {
+    "pass": 57,
+    "fail": 0,
+    "total": 57
+  }
+}

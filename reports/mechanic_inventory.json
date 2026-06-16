@@ -1,0 +1,383 @@
+{
+  "generated": "2026-06-16T13:02:49.540Z",
+  "ingestedCards": 651,
+  "externalCorpora": [
+    "OP-01"
+  ],
+  "mechanics": {
+    "onPlay": {
+      "dslMapping": "onPlay",
+      "ingestedCount": 170,
+      "examples": [
+        "ST01-011",
+        "ST02-005",
+        "ST02-009"
+      ],
+      "externalCounts": {
+        "OP-01": 37
+      }
+    },
+    "activateMain": {
+      "dslMapping": "activateMain",
+      "ingestedCount": 13,
+      "examples": [
+        "ST01-001",
+        "ST01-007",
+        "ST01-017"
+      ]
+    },
+    "whenAttacking": {
+      "dslMapping": "whenAttacking",
+      "ingestedCount": 77,
+      "examples": [
+        "ST01-002",
+        "ST01-005",
+        "ST01-012"
+      ],
+      "externalCounts": {
+        "OP-01": 23
+      }
+    },
+    "onBlock": {
+      "dslMapping": "onBlock",
+      "ingestedCount": 9,
+      "examples": [
+        "ST03-003",
+        "ST05-004",
+        "OP01-014"
+      ],
+      "externalCounts": {
+        "OP-01": 5
+      }
+    },
+    "onKO": {
+      "dslMapping": "onKO",
+      "ingestedCount": 25,
+      "examples": [
+        "OP01-007",
+        "OP01-038",
+        "OP01-069"
+      ],
+      "externalCounts": {
+        "OP-01": 7
+      }
+    },
+    "trigger": {
+      "dslMapping": "trigger",
+      "ingestedCount": 2,
+      "examples": [
+        "OP03-037",
+        "OP03-119"
+      ],
+      "externalCounts": {
+        "OP-01": 15
+      }
+    },
+    "counterEvent": {
+      "dslMapping": "counterEvent",
+      "ingestedCount": 47,
+      "examples": [
+        "ST01-014",
+        "ST02-015",
+        "ST02-016"
+      ],
+      "externalCounts": {
+        "OP-01": 12
+      }
+    },
+    "yourTurn": {
+      "dslMapping": "auras.yourTurn",
+      "ingestedCount": 26,
+      "examples": [
+        "ST02-010",
+        "ST02-014",
+        "OP01-001"
+      ],
+      "externalCounts": {
+        "OP-01": 9
+      }
+    },
+    "oppTurn": {
+      "dslMapping": "auras.oppTurn",
+      "ingestedCount": 12,
+      "examples": [
+        "OP01-019",
+        "OP01-051",
+        "OP02-085"
+      ],
+      "externalCounts": {
+        "OP-01": 3
+      }
+    },
+    "endOfYourTurn": {
+      "dslMapping": "endOfYourTurn",
+      "ingestedCount": 13,
+      "examples": [
+        "ST02-013",
+        "OP02-001",
+        "OP02-029"
+      ]
+    },
+    "oncePerTurn": {
+      "dslMapping": "oncePerTurn flags",
+      "ingestedCount": 61,
+      "examples": [
+        "ST01-001",
+        "ST01-007",
+        "ST02-001"
+      ],
+      "externalCounts": {
+        "OP-01": 17
+      }
+    },
+    "donX": {
+      "dslMapping": "requiresDon",
+      "ingestedCount": 89,
+      "examples": [
+        "ST01-002",
+        "ST01-004",
+        "ST01-005"
+      ],
+      "externalCounts": {
+        "OP-01": 37
+      }
+    },
+    "rush": {
+      "dslMapping": "keyword Rush",
+      "ingestedCount": 18,
+      "examples": [
+        "ST01-004",
+        "ST01-012",
+        "ST04-003"
+      ],
+      "externalCounts": {
+        "OP-01": 8
+      }
+    },
+    "blocker": {
+      "dslMapping": "keyword Blocker",
+      "ingestedCount": 78,
+      "examples": [
+        "ST01-002",
+        "ST01-006",
+        "ST01-012"
+      ],
+      "externalCounts": {
+        "OP-01": 17
+      }
+    },
+    "doubleAttack": {
+      "dslMapping": "keyword Double Attack",
+      "ingestedCount": 10,
+      "examples": [
+        "ST05-011",
+        "OP01-068",
+        "OP01-121"
+      ],
+      "externalCounts": {
+        "OP-01": 3
+      }
+    },
+    "banish": {
+      "dslMapping": "keyword Banish",
+      "ingestedCount": 7,
+      "examples": [
+        "OP01-067",
+        "OP01-121",
+        "OP02-095"
+      ],
+      "externalCounts": {
+        "OP-01": 4
+      }
+    },
+    "koEffects": {
+      "dslMapping": "op ko",
+      "ingestedCount": 82,
+      "examples": [
+        "ST01-015",
+        "ST01-016",
+        "ST02-005"
+      ],
+      "externalCounts": {
+        "OP-01": 9
+      }
+    },
+    "search": {
+      "dslMapping": "op searchTop",
+      "ingestedCount": 39,
+      "examples": [
+        "ST02-007",
+        "ST03-010",
+        "ST05-014"
+      ],
+      "externalCounts": {
+        "OP-01": 10
+      }
+    },
+    "fromTrash": {
+      "dslMapping": "op playFromTrash / trashToHand",
+      "ingestedCount": 18,
+      "examples": [
+        "ST03-004",
+        "OP01-005",
+        "OP01-015"
+      ],
+      "externalCounts": {
+        "OP-01": 3
+      }
+    },
+    "restand": {
+      "dslMapping": "op setActive / setDonActive",
+      "ingestedCount": 64,
+      "examples": [
+        "ST02-001",
+        "ST02-009",
+        "ST02-010"
+      ],
+      "externalCounts": {
+        "OP-01": 12
+      }
+    },
+    "resting": {
+      "dslMapping": "op restTarget / restOppDon",
+      "ingestedCount": 27,
+      "examples": [
+        "ST02-008",
+        "ST02-017",
+        "ST05-004"
+      ],
+      "externalCounts": {
+        "OP-01": 6
+      }
+    },
+    "powerMinus": {
+      "dslMapping": "op powerMod (negative)",
+      "ingestedCount": 33,
+      "examples": [
+        "OP01-006",
+        "OP01-022",
+        "OP01-026"
+      ],
+      "externalCounts": {
+        "OP-01": 6
+      }
+    },
+    "powerPlus": {
+      "dslMapping": "op powerMod",
+      "ingestedCount": 103,
+      "examples": [
+        "ST01-005",
+        "ST01-013",
+        "ST01-014"
+      ]
+    },
+    "draw": {
+      "dslMapping": "op draw",
+      "ingestedCount": 61,
+      "examples": [
+        "ST03-005",
+        "ST03-017",
+        "ST04-005"
+      ],
+      "externalCounts": {
+        "OP-01": 8
+      }
+    },
+    "handDiscard": {
+      "dslMapping": "op discardFromHand / cost trashFromHand",
+      "ingestedCount": 119,
+      "examples": [
+        "ST02-001",
+        "ST03-005",
+        "ST04-002"
+      ],
+      "externalCounts": {
+        "OP-01": 19
+      }
+    },
+    "oppHand": {
+      "dslMapping": "op discardFromHand(opp) / revealHand",
+      "ingestedCount": 3,
+      "examples": [
+        "OP01-063",
+        "OP01-105",
+        "OP03-078"
+      ],
+      "externalCounts": {
+        "OP-01": 2
+      }
+    },
+    "lifeManip": {
+      "dslMapping": "op lifeToHand / lifeFromDeck",
+      "ingestedCount": 48,
+      "examples": [
+        "ST04-001",
+        "OP01-008",
+        "OP01-013"
+      ],
+      "externalCounts": {
+        "OP-01": 2
+      }
+    },
+    "costMod": {
+      "dslMapping": "op costMod / handCost",
+      "ingestedCount": 25,
+      "examples": [
+        "OP01-067",
+        "OP02-002",
+        "OP02-093"
+      ],
+      "externalCounts": {
+        "OP-01": 0
+      }
+    },
+    "attackLock": {
+      "dslMapping": "flag cannotAttack",
+      "ingestedCount": 9,
+      "examples": [
+        "OP01-051",
+        "OP01-085",
+        "OP02-110"
+      ],
+      "externalCounts": {
+        "OP-01": 3
+      }
+    },
+    "blockerLock": {
+      "dslMapping": "battleFlag noBlock*",
+      "ingestedCount": 8,
+      "examples": [
+        "ST01-002",
+        "ST01-012",
+        "ST01-016"
+      ],
+      "externalCounts": {
+        "OP-01": 2
+      }
+    },
+    "delayed": {
+      "dslMapping": "op schedule",
+      "ingestedCount": 4,
+      "examples": [
+        "OP03-005",
+        "OP04-009",
+        "OP04-026"
+      ],
+      "externalCounts": {
+        "OP-01": 0
+      }
+    },
+    "replacement": {
+      "dslMapping": "onWouldKO",
+      "ingestedCount": 7,
+      "examples": [
+        "OP04-040",
+        "OP04-082",
+        "OP04-094"
+      ],
+      "externalCounts": {
+        "OP-01": 0
+      }
+    }
+  }
+}

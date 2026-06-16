@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ST01-vs-ST01#1",
+    "a": "ST01",
+    "b": "ST01",
+    "seed": 1,
+    "winner": 0,
+    "turns": 11,
+    "actions": 104,
+    "stateHash": "c6bf9442a8ff0202",
+    "replayOk": true
+  },
+  {
+    "id": "ST01-vs-ST02#7",
+    "a": "ST01",
+    "b": "ST02",
+    "seed": 7,
+    "winner": 0,
+    "turns": 9,
+    "actions": 78,
+    "stateHash": "30402f6c256b31ce",
+    "replayOk": true
+  },
+  {
+    "id": "ST02-vs-ST03#13",
+    "a": "ST02",
+    "b": "ST03",
+    "seed": 13,
+    "winner": 0,
+    "turns": 13,
+    "actions": 96,
+    "stateHash": "59fd7d7d9cd1bf5f",
+    "replayOk": true
+  },
+  {
+    "id": "ST03-vs-ST04#21",
+    "a": "ST03",
+    "b": "ST04",
+    "seed": 21,
+    "winner": 0,
+    "turns": 15,
+    "actions": 102,
+    "stateHash": "2df528109f6fda74",
+    "replayOk": true
+  },
+  {
+    "id": "ST04-vs-ST05#42",
+    "a": "ST04",
+    "b": "ST05",
+    "seed": 42,
+    "winner": 1,
+    "turns": 12,
+    "actions": 79,
+    "stateHash": "97896ff25394e0e6",
+    "replayOk": true
+  },
+  {
+    "id": "ST05-vs-ST01#99",
+    "a": "ST05",
+    "b": "ST01",
+    "seed": 99,
+    "winner": 1,
+    "turns": 16,
+    "actions": 125,
+    "stateHash": "ec89fb90e8df95b9",
+    "replayOk": true
+  },
+  {
+    "id": "OP01R-vs-ST01#3",
+    "a": "OP01R",
+    "b": "ST01",
+    "seed": 3,
+    "winner": 0,
+    "turns": 17,
+    "actions": 178,
+    "stateHash": "e3d3880733edcda9",
+    "replayOk": true
+  },
+  {
+    "id": "OP01R-vs-ST03#17",
+    "a": "OP01R",
+    "b": "ST03",
+    "seed": 17,
+    "winner": 0,
+    "turns": 13,
+    "actions": 110,
+    "stateHash": "2b0e7d1a3c221f6b",
+    "replayOk": true
+  },
+  {
+    "id": "OP01R-vs-OP01R#7",
+    "a": "OP01R",
+    "b": "OP01R",
+    "seed": 7,
+    "winner": 0,
+    "turns": 13,
+    "actions": 116,
+    "stateHash": "f364d231f5baa3f7",
+    "replayOk": true
+  },
+  {
+    "id": "ST02-vs-OP01R#256",
+    "a": "ST02",
+    "b": "OP01R",
+    "seed": 256,
+    "winner": 1,
+    "turns": 18,
+    "actions": 174,
+    "stateHash": "8044f6622ef07b3c",
+    "replayOk": true
+  }
+]

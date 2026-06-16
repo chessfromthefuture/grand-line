@@ -1,0 +1,24 @@
+{
+  "name": "grand-line",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "GRAND LINE — next-gen One Piece TCG simulator. Deterministic rules engine, data-driven card scripts, rule-valid AI.",
+  "scripts": {
+    "test": "node --test",
+    "play": "node src/cli/play.js",
+    "serve": "python3 -m http.server 8000",
+    "coverage": "node scripts/coverage.js",
+    "mechanics": "node scripts/mechanics.js",
+    "dashboard": "node scripts/dashboard.js",
+    "fuzz": "node scripts/fuzz.js",
+    "generate": "node scripts/generate.js",
+    "generate:write": "node scripts/generate.js --write",
+    "golden": "node scripts/golden.js",
+    "golden:update": "node scripts/golden.js --update",
+    "ingest": "node scripts/ingest/from_file.js",
+    "ci": "bash scripts/ci.sh"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}

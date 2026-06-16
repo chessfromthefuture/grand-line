@@ -1,0 +1,6 @@
+{"milestone":"post-M6","generatorClauses":26,"newOps":["trashToHand","op.if conditions"],
+ "groundTruth34":{"A":18,"B":11,"C":4,"D":1,"agreementAvsHand":"18/18"},
+ "op01Sample7":{"A":6,"B":1,"C":0,"D":0},
+ "projection":{"basis":"155 exact texts; A-rate 53% (ground truth) and 86% (OP01 unseen sample) with 26 clauses; B-class drafts ~30%",
+  "projectedAutoSupport":"60-70% A-class, 85-90% A+B at current clause count; 70%+ A-class expected once clause library reflects first 5 ingested OP sets",
+  "tests":"53/53","replayDivergence":"0/100 over 1000-game stress"}}

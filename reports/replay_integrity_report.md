@@ -1,0 +1,2 @@
+# Replay Integrity (M10)
+Attack: 20 longest/most chaotic random games per run (up to 417 actions, heavy trigger/bounce/DON-churn) re-simulated twice from {seed, decks, actions}. Result: 0 divergence, all runs. Combined with per-suite replay tests and 0/100 divergence in every stress run since M1: no known way to break determinism. RNG lives in state; no wall-clock, no Math.random (verified by grep).
