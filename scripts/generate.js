@@ -75,6 +75,11 @@ const CLAUSES = [
   { name: "cond_draw", rx: /^(?:Then, )?draw (\d) cards? if you have (\d) or less cards? in your hand\.?$/,
     gen: m => ({ op: "draw", count: +m[1], if: { maxOwnHand: +m[2] } }) },
   { name: "trigger_counter", rx: /^Activate this card's \[?Counter\]? effect\.?$/, gen: () => ({ TRIGGER_COUNTER: true }) },
+  // ---- DON-ramp (frequency-ranked gap after OP-02..05 ingest) ----
+  { name: "ramp_rest", rx: /^(?:Then, )?[Aa]dd up to (\d) DON!! cards? from your DON!! deck and rest it\.?$/,
+    gen: m => ({ op: "addDon", count: +m[1], rested: true }) },
+  { name: "ramp_active", rx: /^(?:Then, )?[Aa]dd up to (\d) DON!! cards? from your DON!! deck and set it as active\.?$/,
+    gen: m => ({ op: "addDon", count: +m[1], rested: false }) },
 ];
 const D_MARKERS = /would be K\.O\.|instead|choose one|look at your opponent|reveal.*opponent's hand|place .* at the (top|bottom) of .* Life/i;
 

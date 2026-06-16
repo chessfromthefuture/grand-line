@@ -19,7 +19,9 @@ export function normalizeCard(raw) {
   const colors = (nn(raw.card_color) || "").split(/[/\s]+/).map(s => s.trim()).filter(Boolean);
   if (!colors.length || !colors.every(c => COLORS.includes(c))) errors.push(`bad colors: ${raw.card_color}`);
   const attribute = nn(raw.attribute);
-  if (!ATTRIBUTES.includes(attribute)) errors.push(`bad attribute: ${attribute}`);
+  // newer cards can carry two attributes (e.g. "Special Strike"); accept if every token is valid
+  const attrOk = attribute == null || attribute.split(/[/\s]+/).every(a => ATTRIBUTES.includes(a));
+  if (!attrOk) errors.push(`bad attribute: ${attribute}`);
 
   // text: split [Trigger] clause out; strip scraper annotations; flag errata
   let text = nn(raw.card_text), triggerText = null, errata = false;

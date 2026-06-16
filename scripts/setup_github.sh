@@ -22,7 +22,15 @@ git commit -m "GRAND LINE — OPTCG simulator (engine + OP-01, CI firewall, gold
 
 if command -v gh >/dev/null 2>&1; then
   echo "→ creating PRIVATE GitHub repo '$REPO' and pushing…"
-  gh repo create "$REPO" --private --source=. --remote=origin --push
+  gh auth setup-git >/dev/null 2>&1 || true   # wire git to use the gh token over HTTPS
+  # create if it doesn't already exist (ignore error if it does)
+  gh repo create "$REPO" --private --source=. --remote=origin --push 2>/dev/null || {
+    echo "→ repo/remote may already exist; forcing HTTPS remote + push…"
+    user=$(gh api user -q .login)
+    git remote remove origin 2>/dev/null || true
+    git remote add origin "https://github.com/$user/$REPO.git"
+    git push -u origin main
+  }
   echo "✅ done: $(gh repo view "$REPO" --json url -q .url 2>/dev/null || echo "see your GitHub")"
 else
   echo "gh CLI not found. Either install it, or create the repo manually then:"

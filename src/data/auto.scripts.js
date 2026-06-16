@@ -397,6 +397,21 @@ export const AUTO_SCRIPTS = {
   },
   "generated": true
  },
+ "OP01-093": {
+  "onPlay": {
+   "cost": {
+    "restDon": 1
+   },
+   "ops": [
+    {
+     "op": "addDon",
+     "count": 1,
+     "rested": true
+    }
+   ]
+  },
+  "generated": true
+ },
  "OP01-100": {
   "keywords": [
    "Blocker"
@@ -404,6 +419,25 @@ export const AUTO_SCRIPTS = {
   "generated": true
  },
  "OP01-104": {
+  "trigger": {
+   "ops": [
+    {
+     "op": "playSelf"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP01-106": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "addDon",
+     "count": 1,
+     "rested": true
+    }
+   ]
+  },
   "trigger": {
    "ops": [
     {
@@ -433,6 +467,18 @@ export const AUTO_SCRIPTS = {
   },
   "generated": true
  },
+ "OP01-113": {
+  "onKO": {
+   "ops": [
+    {
+     "op": "addDon",
+     "count": 1,
+     "rested": true
+    }
+   ]
+  },
+  "generated": true
+ },
  "OP01-117": {
   "mainEvent": {
    "cost": {
@@ -449,6 +495,40 @@ export const AUTO_SCRIPTS = {
       "maxCost": 6,
       "count": 1
      }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP01-118": {
+  "counterEvent": {
+   "cost": {
+    "returnDon": 2
+   },
+   "ops": [
+    {
+     "op": "powerMod",
+     "amount": 2000,
+     "duration": "battle",
+     "upTo": true,
+     "target": {
+      "owner": "self",
+      "zone": "leaderOrChar",
+      "count": 1
+     }
+    },
+    {
+     "op": "draw",
+     "count": 1
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "addDon",
+     "count": 1,
+     "rested": false
     }
    ]
   },
@@ -991,6 +1071,36 @@ export const AUTO_SCRIPTS = {
   },
   "generated": true
  },
+ "OP04-076": {
+  "counterEvent": {
+   "cost": {
+    "returnDon": 1
+   },
+   "ops": [
+    {
+     "op": "powerMod",
+     "amount": 1000,
+     "duration": "turn",
+     "upTo": true,
+     "target": {
+      "owner": "self",
+      "zone": "leaderOrChar",
+      "count": 1
+     }
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "addDon",
+     "count": 1,
+     "rested": false
+    }
+   ]
+  },
+  "generated": true
+ },
  "OP04-089": {
   "keywords": [
    "Blocker"
@@ -1103,10 +1213,584 @@ export const AUTO_SCRIPTS = {
   },
   "generated": true
  },
+ "OP05-077": {
+  "mainEvent": {
+   "cost": {
+    "returnDon": 1
+   },
+   "ops": [
+    {
+     "op": "powerMod",
+     "amount": -5000,
+     "duration": "turn",
+     "upTo": true,
+     "target": {
+      "owner": "opp",
+      "zone": "chars",
+      "count": 1
+     }
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "addDon",
+     "count": 1,
+     "rested": false
+    }
+   ]
+  },
+  "generated": true
+ },
  "OP05-113": {
   "keywords": [
    "Blocker"
   ],
+  "generated": true
+ },
+ "OP06-019": {
+  "mainEvent": {
+   "ops": [
+    {
+     "op": "ko",
+     "upTo": true,
+     "target": {
+      "owner": "opp",
+      "zone": "chars",
+      "maxPower": 5000,
+      "count": 1
+     }
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "ko",
+     "upTo": true,
+     "target": {
+      "owner": "opp",
+      "zone": "chars",
+      "maxPower": 4000,
+      "count": 1
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP06-032": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP06-050": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 5,
+     "match": {
+      "hasType": "Navy"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP06-084": {
+  "onKO": {
+   "ops": [
+    {
+     "op": "powerMod",
+     "amount": 1000,
+     "duration": "turn",
+     "upTo": true,
+     "target": {
+      "owner": "self",
+      "zone": "leaderOrChar",
+      "count": 1
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP06-087": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP07-005": {
+  "keywords": [
+   "Blocker"
+  ],
+  "onPlay": {
+   "ops": [
+    {
+     "op": "powerMod",
+     "amount": -2000,
+     "duration": "turn",
+     "upTo": true,
+     "target": {
+      "owner": "opp",
+      "zone": "chars",
+      "count": 1
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP07-015": {
+  "keywords": [
+   "Rush"
+  ],
+  "onPlay": {
+   "ops": [
+    {
+     "op": "giveDon",
+     "from": "rested",
+     "count": 2,
+     "upTo": true,
+     "target": {
+      "owner": "self",
+      "zone": "leaderOrChar"
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP07-021": {
+  "keywords": [
+   "Blocker"
+  ],
+  "endOfYourTurn": {
+   "ops": [
+    {
+     "op": "setDonActive",
+     "count": 1
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP07-039": {
+  "whenAttacking": {
+   "requiresDon": 1,
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 3,
+     "take": {
+      "upTo": 0
+     },
+     "restTo": "top"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP07-040": {
+  "onPlay": {
+   "cost": {
+    "restDon": 1
+   },
+   "ops": [
+    {
+     "op": "returnToHand",
+     "upTo": true,
+     "target": {
+      "owner": "any",
+      "zone": "chars",
+      "maxCost": 2,
+      "count": 1
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP07-044": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "draw",
+     "count": 1
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP07-054": {
+  "keywords": [
+   "Blocker"
+  ],
+  "onPlay": {
+   "ops": [
+    {
+     "op": "draw",
+     "count": 1
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP08-003": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP08-042": {
+  "whenAttacking": {
+   "requiresDon": 1,
+   "ops": [
+    {
+     "op": "returnToHand",
+     "upTo": true,
+     "target": {
+      "owner": "any",
+      "zone": "chars",
+      "maxCost": 3,
+      "count": 1
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP08-066": {
+  "keywords": [
+   "Blocker"
+  ],
+  "onKO": {
+   "ops": [
+    {
+     "op": "addDon",
+     "count": 1,
+     "rested": true
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP09-002": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 5,
+     "match": {
+      "hasType": "Red-Haired Pirates"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP09-020": {
+  "mainEvent": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 5,
+     "match": {
+      "hasType": "Red-Haired Pirates"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "draw",
+     "count": 1
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP09-048": {
+  "keywords": [
+   "Blocker"
+  ],
+  "onPlay": {
+   "ops": [
+    {
+     "op": "draw",
+     "count": 2
+    },
+    {
+     "op": "discardFromHand",
+     "owner": "self",
+     "count": 1
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP09-054": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP09-056": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 4,
+     "match": {
+      "hasType": "Cross Guild"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP09-057": {
+  "mainEvent": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 4,
+     "match": {
+      "hasType": "Cross Guild"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 4,
+     "match": {
+      "hasType": "Cross Guild"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP09-071": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP09-091": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP09-110": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "draw",
+     "count": 2
+    },
+    {
+     "op": "discardFromHand",
+     "owner": "self",
+     "count": 2
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "playSelf"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP10-012": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP10-045": {
+  "whenAttacking": {
+   "oncePerTurn": true,
+   "ops": [
+    {
+     "op": "draw",
+     "count": 2
+    },
+    {
+     "op": "discardFromHand",
+     "owner": "self",
+     "count": 1
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP10-046": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "returnToHand",
+     "upTo": true,
+     "target": {
+      "owner": "any",
+      "zone": "chars",
+      "maxCost": 5,
+      "count": 1
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP10-051": {
+  "whenAttacking": {
+   "requiresDon": 1,
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 3,
+     "match": {
+      "hasType": "Revolutionary Army"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP10-059": {
+  "mainEvent": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 5,
+     "match": {
+      "hasType": "Dressrosa"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 5,
+     "match": {
+      "hasType": "Dressrosa"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP10-064": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP10-111": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 5,
+     "match": {
+      "hasType": "Supernovas"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP11-016": {
+  "activateMain": {
+   "oncePerTurn": true,
+   "ops": [
+    {
+     "op": "giveDon",
+     "from": "rested",
+     "count": 1,
+     "upTo": true,
+     "target": {
+      "owner": "self",
+      "zone": "leaderOrChar"
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP11-029": {
+  "keywords": [
+   "Blocker"
+  ],
+  "onPlay": {
+   "ops": [
+    {
+     "op": "restTarget",
+     "upTo": true,
+     "target": {
+      "owner": "opp",
+      "zone": "chars",
+      "activeOnly": true,
+      "maxCost": 1,
+      "count": 1
+     }
+    }
+   ]
+  },
   "generated": true
  },
  "ST03-005": {

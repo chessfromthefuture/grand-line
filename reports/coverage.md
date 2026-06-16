@@ -1,6 +1,6 @@
 # Card Coverage Dashboard
 
-Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported: **434**
+Total: **1266** · Implemented: **288** (22.7%) · Partial: **1** · Unsupported: **977**
 
 ## ST-01 — 17/17
 
@@ -112,7 +112,7 @@ Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported:
 | ST05-016 | Lion's Threat Imperial Earth Bind | ✅ implemented |  |
 | ST05-017 | Union Armada | ✅ implemented |  |
 
-## OP-01 — 42/121
+## OP-01 — 46/121
 
 | Card | Name | Status | Note |
 |---|---|---|---|
@@ -208,7 +208,7 @@ Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported:
 | OP01-090 | Baroque Works | ✅ implemented |  |
 | OP01-091 | King | ❌ unsupported |  |
 | OP01-092 | Urashima | ✅ implemented |  |
-| OP01-093 | Ulti | ❌ unsupported |  |
+| OP01-093 | Ulti | ✅ implemented |  |
 | OP01-094 | Kaido | ❌ unsupported |  |
 | OP01-095 | Kyoshirou | ❌ unsupported |  |
 | OP01-096 | King | ❌ unsupported |  |
@@ -221,19 +221,19 @@ Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported:
 | OP01-103 | Scratchmen Apoo | ✅ implemented |  |
 | OP01-104 | Speed | ✅ implemented |  |
 | OP01-105 | Bao Huang | ❌ unsupported |  |
-| OP01-106 | Basil Hawkins | ❌ unsupported |  |
+| OP01-106 | Basil Hawkins | ✅ implemented |  |
 | OP01-107 | Babanuki | ✅ implemented |  |
 | OP01-108 | Hitokiri Kamazo | ✅ implemented |  |
 | OP01-109 | Who's.Who (Box Topper) | ❌ unsupported |  |
 | OP01-110 | Fukurokuju | ✅ implemented |  |
 | OP01-111 | Black Maria | ❌ unsupported |  |
 | OP01-112 | Page One | ❌ unsupported |  |
-| OP01-113 | Holedem | ❌ unsupported |  |
+| OP01-113 | Holedem | ✅ implemented |  |
 | OP01-114 | X.Drake | ❌ unsupported |  |
 | OP01-115 | Elephant's Marchoo | ❌ unsupported |  |
 | OP01-116 | Artificial Devil Fruit SMILE | ❌ unsupported |  |
 | OP01-117 | Sheep's Horn | ✅ implemented |  |
-| OP01-118 | Ulti-Mortar | ❌ unsupported |  |
+| OP01-118 | Ulti-Mortar | ✅ implemented |  |
 | OP01-119 | Thunder Bagua | ❌ unsupported |  |
 | OP01-120 | Shanks | ❌ unsupported |  |
 | OP01-121 | Yamato | ❌ unsupported |  |
@@ -482,7 +482,7 @@ Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported:
 | OP03-122 | Sogeking | ❌ unsupported |  |
 | OP03-123 | Charlotte Katakuri | ❌ unsupported |  |
 
-## OP-04 — 12/102
+## OP-04 — 13/102
 
 | Card | Name | Status | Note |
 |---|---|---|---|
@@ -553,7 +553,7 @@ Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported:
 | OP04-073 | Mr.13 & Ms.Friday | ❌ unsupported |  |
 | OP04-074 | Colors Trap | ❌ unsupported |  |
 | OP04-075 | Nez-Palm Cannon | ❌ unsupported |  |
-| OP04-076 | Weakness...Is an Unforgivable Sin. | ❌ unsupported |  |
+| OP04-076 | Weakness...Is an Unforgivable Sin. | ✅ implemented |  |
 | OP04-079 | Orlumbus | ❌ unsupported |  |
 | OP04-080 | Gyats | ❌ unsupported |  |
 | OP04-081 | Cavendish | ❌ unsupported |  |
@@ -589,7 +589,7 @@ Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported:
 | OP04-118 | Nefeltari Vivi | ❌ unsupported |  |
 | OP04-119 | Donquixote Rosinante | ❌ unsupported |  |
 
-## OP-05 — 15/109
+## OP-05 — 16/109
 
 | Card | Name | Status | Note |
 |---|---|---|---|
@@ -663,7 +663,7 @@ Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported:
 | OP05-073 | Miss Doublefinger(Zala) | ❌ unsupported |  |
 | OP05-074 | Eustass"Captain"Kid | ❌ unsupported |  |
 | OP05-076 | When You're at Sea You Fight against Pirates!! | ❌ unsupported |  |
-| OP05-077 | Gamma Knife | ❌ unsupported |  |
+| OP05-077 | Gamma Knife | ✅ implemented |  |
 | OP05-078 | Punk Rotten | ❌ unsupported |  |
 | OP05-079 | Viola | ❌ unsupported |  |
 | OP05-080 | Elizabello II | ❌ unsupported |  |
@@ -702,4 +702,649 @@ Total: **651** · Implemented: **216** (33.2%) · Partial: **1** · Unsupported:
 | OP05-116 | Hino Bird Zap | ❌ unsupported |  |
 | OP05-118 | Kaido | ❌ unsupported |  |
 | OP05-119 | Monkey.D.Luffy | ❌ unsupported |  |
+
+## OP-06 — 6/98
+
+| Card | Name | Status | Note |
+|---|---|---|---|
+| OP06-001 | Uta | ❌ unsupported |  |
+| OP06-002 | Inazuma | ❌ unsupported |  |
+| OP06-003 | Emporio.Ivankov | ❌ unsupported |  |
+| OP06-006 | Saga | ❌ unsupported |  |
+| OP06-007 | Shanks | ❌ unsupported |  |
+| OP06-008 | Schneider | ✅ implemented |  |
+| OP06-009 | Shuraiya | ❌ unsupported |  |
+| OP06-010 | Douglas Bullet | ❌ unsupported |  |
+| OP06-011 | Tot Musica | ❌ unsupported |  |
+| OP06-013 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP06-016 | Raise Max | ❌ unsupported |  |
+| OP06-018 | Gum-Gum King Kong Gatling | ❌ unsupported |  |
+| OP06-019 | Blue Dragon Seal Water Stream | ✅ implemented |  |
+| OP06-020 | Hody Jones (020) (Alternate Art) | ❌ unsupported |  |
+| OP06-021 | Perona | ❌ unsupported |  |
+| OP06-022 | Yamato | ❌ unsupported |  |
+| OP06-023 | Arlong | ❌ unsupported |  |
+| OP06-024 | Ikaros Much | ❌ unsupported |  |
+| OP06-025 | Camie | ❌ unsupported |  |
+| OP06-028 | Zeo | ❌ unsupported |  |
+| OP06-029 | Daruma | ❌ unsupported |  |
+| OP06-031 | Hatchan | ❌ unsupported |  |
+| OP06-032 | Hammond | ✅ implemented |  |
+| OP06-033 | Vander Decken IX | ❌ unsupported |  |
+| OP06-034 | Hyouzou | ❌ unsupported |  |
+| OP06-035 | Hody Jones | ❌ unsupported |  |
+| OP06-036 | Ryuma | ❌ unsupported |  |
+| OP06-038 | The Billion-fold World Trichiliocosm | ❌ unsupported |  |
+| OP06-039 | You Ain't Even Worth Killing Time!! | ❌ unsupported |  |
+| OP06-041 | The Ark Noah | ❌ unsupported |  |
+| OP06-042 | Vinsmoke Reiju | ❌ unsupported |  |
+| OP06-043 | Aramaki | ❌ unsupported |  |
+| OP06-044 | Gion | ❌ unsupported |  |
+| OP06-045 | Kuzan | ❌ unsupported |  |
+| OP06-046 | Sakazuki | ❌ unsupported |  |
+| OP06-047 | Charlotte Pudding | ❌ unsupported |  |
+| OP06-048 | Zeff | ❌ unsupported |  |
+| OP06-050 | Tashigi | ✅ implemented |  |
+| OP06-051 | Tsuru | ❌ unsupported |  |
+| OP06-054 | Borsalino | ❌ unsupported |  |
+| OP06-055 | Monkey.D.Garp | ❌ unsupported |  |
+| OP06-056 | Ama no Murakumo Sword | ❌ unsupported |  |
+| OP06-057 | But I Will Never Doubt a Woman's Tears!!!! | ❌ unsupported |  |
+| OP06-058 | Gravity Blade Raging Tiger | ❌ unsupported |  |
+| OP06-059 | White Snake | ❌ unsupported |  |
+| OP06-060 | Vinsmoke Ichiji | ❌ unsupported |  |
+| OP06-061 | Vinsmoke Ichiji | ❌ unsupported |  |
+| OP06-062 | Vinsmoke Judge | ❌ unsupported |  |
+| OP06-063 | Vinsmoke Sora | ❌ unsupported |  |
+| OP06-064 | Vinsmoke Niji | ❌ unsupported |  |
+| OP06-065 | Vinsmoke Niji | ❌ unsupported |  |
+| OP06-066 | Vinsmoke Yonji | ❌ unsupported |  |
+| OP06-067 | Vinsmoke Yonji | ❌ unsupported |  |
+| OP06-068 | Vinsmoke Reiju | ❌ unsupported |  |
+| OP06-069 | Vinsmoke Reiju | ❌ unsupported |  |
+| OP06-071 | Gild Tesoro | ❌ unsupported |  |
+| OP06-072 | Cosette | ❌ unsupported |  |
+| OP06-073 | Shiki | ❌ unsupported |  |
+| OP06-074 | Zephyr (Navy) | ❌ unsupported |  |
+| OP06-076 | Hitokiri Kamazo | ❌ unsupported |  |
+| OP06-077 | Black Bug | ❌ unsupported |  |
+| OP06-078 | GERMA 66 | ❌ unsupported |  |
+| OP06-079 | Kingdom of GERMA | ❌ unsupported |  |
+| OP06-080 | Gecko Moria (080) (Alternate Art) | ❌ unsupported |  |
+| OP06-081 | Absalom | ❌ unsupported |  |
+| OP06-082 | Inuppe | ❌ unsupported |  |
+| OP06-083 | Oars | ❌ unsupported |  |
+| OP06-084 | Jigoro of the Wind | ✅ implemented |  |
+| OP06-085 | Kumacy | ❌ unsupported |  |
+| OP06-086 | Gecko Moria | ❌ unsupported |  |
+| OP06-087 | Cerberus | ✅ implemented |  |
+| OP06-089 | Taralan | ❌ unsupported |  |
+| OP06-090 | Dr. Hogback | ❌ unsupported |  |
+| OP06-091 | Victoria Cindry | ❌ unsupported |  |
+| OP06-092 | Brook | ❌ unsupported |  |
+| OP06-093 | Perona | ❌ unsupported |  |
+| OP06-096 | ...Nothing...at All!!! | ❌ unsupported |  |
+| OP06-097 | Negative Hollow | ❌ unsupported |  |
+| OP06-098 | Thriller Bark | ❌ unsupported |  |
+| OP06-099 | Aisa | ❌ unsupported |  |
+| OP06-100 | Inuarashi | ❌ unsupported |  |
+| OP06-101 | O-Nami | ❌ unsupported |  |
+| OP06-102 | Kamakiri | ❌ unsupported |  |
+| OP06-103 | Kawamatsu | ❌ unsupported |  |
+| OP06-104 | Kikunojo | ❌ unsupported |  |
+| OP06-106 | Kouzuki Hiyori | ❌ unsupported |  |
+| OP06-107 | Kouzuki Momonosuke | ❌ unsupported |  |
+| OP06-109 | Denjiro | ❌ unsupported |  |
+| OP06-110 | Nekomamushi | ❌ unsupported |  |
+| OP06-111 | Braham | ❌ unsupported |  |
+| OP06-112 | Raizo | ❌ unsupported |  |
+| OP06-113 | Raki | ❌ unsupported |  |
+| OP06-114 | Wyper | ❌ unsupported |  |
+| OP06-115 | You're the One Who Should Disappear | ❌ unsupported |  |
+| OP06-116 | Reject | ❌ unsupported |  |
+| OP06-117 | The Ark Maxim | ❌ unsupported |  |
+| OP06-118 | Roronoa Zoro | ❌ unsupported |  |
+| OP06-119 | Sanji | ❌ unsupported |  |
+
+## OP-07 — 8/97
+
+| Card | Name | Status | Note |
+|---|---|---|---|
+| OP07-001 | Monkey.D.Dragon | ❌ unsupported |  |
+| OP07-002 | Ain | ❌ unsupported |  |
+| OP07-003 | Outlook III | ❌ unsupported |  |
+| OP07-004 | Curly.Dadan | ❌ unsupported |  |
+| OP07-005 | Carina | ✅ implemented |  |
+| OP07-010 | Baccarat | ❌ unsupported |  |
+| OP07-013 | Masked Deuce | ❌ unsupported |  |
+| OP07-014 | Moda | ❌ unsupported |  |
+| OP07-015 | Monkey.D.Dragon | ✅ implemented |  |
+| OP07-016 | Galaxy Wink | ❌ unsupported |  |
+| OP07-017 | Dragon Breath | ❌ unsupported |  |
+| OP07-018 | Keep Out | ❌ unsupported |  |
+| OP07-019 | Jewelry Bonney | ❌ unsupported |  |
+| OP07-020 | Aladine | ❌ unsupported |  |
+| OP07-021 | Urouge | ✅ implemented |  |
+| OP07-022 | Otama | ❌ unsupported |  |
+| OP07-026 | Jewelry Bonney | ❌ unsupported |  |
+| OP07-029 | Basil Hawkins | ❌ unsupported |  |
+| OP07-030 | Pappag | ❌ unsupported |  |
+| OP07-031 | Bartolomeo | ❌ unsupported |  |
+| OP07-032 | Fisher Tiger | ❌ unsupported |  |
+| OP07-033 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP07-034 | Roronoa Zoro | ❌ unsupported |  |
+| OP07-035 | Karmic Punishment | ❌ unsupported |  |
+| OP07-036 | Demonic Aura Nine-Sword Style Asura Demon Nine Flash | ❌ unsupported |  |
+| OP07-037 | More Pizza!! | ❌ unsupported |  |
+| OP07-038 | Boa Hancock | ❌ unsupported |  |
+| OP07-039 | Edward Weevil | ✅ implemented |  |
+| OP07-040 | Crocodile | ✅ implemented |  |
+| OP07-041 | Gloriosa (Grandma Nyon) | ❌ unsupported |  |
+| OP07-043 | Salome | ❌ unsupported |  |
+| OP07-044 | Dracule Mihawk | ✅ implemented |  |
+| OP07-045 | Jinbe | ❌ unsupported |  |
+| OP07-046 | Sengoku | ❌ unsupported |  |
+| OP07-047 | Trafalgar Law | ❌ unsupported |  |
+| OP07-048 | Donquixote Doflamingo | ❌ unsupported |  |
+| OP07-049 | Buckin | ❌ unsupported |  |
+| OP07-050 | Boa Sandersonia | ❌ unsupported |  |
+| OP07-051 | Boa Hancock | ❌ unsupported |  |
+| OP07-052 | Boa Marigold | ❌ unsupported |  |
+| OP07-053 | Portgas.D.Ace | ❌ unsupported |  |
+| OP07-054 | Marguerite | ✅ implemented |  |
+| OP07-055 | Snake Dance | ❌ unsupported |  |
+| OP07-056 | Slave Arrow | ❌ unsupported |  |
+| OP07-057 | Perfume Femur | ❌ unsupported |  |
+| OP07-059 | Foxy | ❌ unsupported |  |
+| OP07-060 | Itomimizu | ❌ unsupported |  |
+| OP07-061 | Vinsmoke Sanji | ❌ unsupported |  |
+| OP07-062 | Vinsmoke Reiju | ❌ unsupported |  |
+| OP07-063 | Capote | ❌ unsupported |  |
+| OP07-064 | Sanji | ❌ unsupported |  |
+| OP07-065 | Gina | ❌ unsupported |  |
+| OP07-066 | Tony Tony.Chopper | ❌ unsupported |  |
+| OP07-068 | Hamburg | ❌ unsupported |  |
+| OP07-069 | Pickles | ❌ unsupported |  |
+| OP07-070 | Big Bun | ❌ unsupported |  |
+| OP07-071 | Foxy | ❌ unsupported |  |
+| OP07-072 | Porche | ❌ unsupported |  |
+| OP07-073 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP07-074 | Monda | ❌ unsupported |  |
+| OP07-075 | Slow-Slow Beam | ❌ unsupported |  |
+| OP07-076 | Slow-Slow Beam Sword | ❌ unsupported |  |
+| OP07-077 | We're Going to Claim the One Piece!!! | ❌ unsupported |  |
+| OP07-078 | Megaton Nine-Tails Rush | ❌ unsupported |  |
+| OP07-079 | Rob Lucci | ❌ unsupported |  |
+| OP07-080 | Kaku | ❌ unsupported |  |
+| OP07-081 | Kalifa | ❌ unsupported |  |
+| OP07-082 | Captain John | ❌ unsupported |  |
+| OP07-083 | Gecko Moria | ❌ unsupported |  |
+| OP07-085 | Stussy | ❌ unsupported |  |
+| OP07-088 | Hattori | ❌ unsupported |  |
+| OP07-090 | Morgans | ❌ unsupported |  |
+| OP07-091 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP07-093 | Rob Lucci | ❌ unsupported |  |
+| OP07-094 | Shave | ❌ unsupported |  |
+| OP07-096 | Tempest Kick | ❌ unsupported |  |
+| OP07-097 | Vegapunk | ❌ unsupported |  |
+| OP07-098 | Atlas | ❌ unsupported |  |
+| OP07-099 | Usopp | ❌ unsupported |  |
+| OP07-100 | Edison | ❌ unsupported |  |
+| OP07-101 | Shaka | ❌ unsupported |  |
+| OP07-102 | Jinbe | ❌ unsupported |  |
+| OP07-103 | Tony Tony.Chopper | ❌ unsupported |  |
+| OP07-104 | Nico Robin | ❌ unsupported |  |
+| OP07-105 | Pythagoras | ❌ unsupported |  |
+| OP07-107 | Franky | ❌ unsupported |  |
+| OP07-108 | Vega Force 01 | ✅ implemented |  |
+| OP07-109 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP07-110 | York | ❌ unsupported |  |
+| OP07-111 | Lilith | ❌ unsupported |  |
+| OP07-112 | Lucy | ❌ unsupported |  |
+| OP07-113 | Roronoa Zoro | ❌ unsupported |  |
+| OP07-114 | He Possesses the World's Most Brilliant Mind | ❌ unsupported |  |
+| OP07-115 | I Re-Quasar Helllp!! | ❌ unsupported |  |
+| OP07-116 | Blaze Slice | ❌ unsupported |  |
+| OP07-118 | Sabo | ❌ unsupported |  |
+| OP07-119 | Portgas.D.Ace | ❌ unsupported |  |
+
+## OP-08 — 13/112
+
+| Card | Name | Status | Note |
+|---|---|---|---|
+| OP08-001 | Tony Tony.Chopper | ❌ unsupported |  |
+| OP08-002 | Marco | ❌ unsupported |  |
+| OP08-003 | Twenty Doctors | ✅ implemented |  |
+| OP08-004 | Kuromarimo | ❌ unsupported |  |
+| OP08-005 | Chess | ❌ unsupported |  |
+| OP08-006 | Chessmarimo | ❌ unsupported |  |
+| OP08-007 | Tony Tony.Chopper (0070) (Parallel) | ❌ unsupported |  |
+| OP08-008 | Dalton | ❌ unsupported |  |
+| OP08-009 | Maria Onion Bear | ✅ implemented |  |
+| OP08-010 | Hiking Bear | ❌ unsupported |  |
+| OP08-011 | Musshuru | ✅ implemented |  |
+| OP08-012 | Lapins | ❌ unsupported |  |
+| OP08-013 | Robson | ❌ unsupported |  |
+| OP08-014 | Wapol | ❌ unsupported |  |
+| OP08-015 | Dr.Kureha (Parallel) | ❌ unsupported |  |
+| OP08-016 | Dr.Hiriluk | ❌ unsupported |  |
+| OP08-017 | I'd Never Shoot You!!!! | ❌ unsupported |  |
+| OP08-018 | Cloven Rose | ❌ unsupported |  |
+| OP08-019 | Munch-Munch Mutation | ❌ unsupported |  |
+| OP08-021 | Carrot | ❌ unsupported |  |
+| OP08-022 | Inuarashi | ❌ unsupported |  |
+| OP08-023 | Carrot (023) (Parallel) | ❌ unsupported |  |
+| OP08-024 | Concelot | ❌ unsupported |  |
+| OP08-025 | Shishilian | ❌ unsupported |  |
+| OP08-026 | Giovanni | ❌ unsupported |  |
+| OP08-027 | Tristan | ✅ implemented |  |
+| OP08-028 | Nekomamushi | ❌ unsupported |  |
+| OP08-029 | Pekoms | ❌ unsupported |  |
+| OP08-030 | Pedro | ❌ unsupported |  |
+| OP08-031 | Miyagi | ❌ unsupported |  |
+| OP08-032 | Milky | ❌ unsupported |  |
+| OP08-033 | Roddy | ❌ unsupported |  |
+| OP08-034 | Wanda | ❌ unsupported |  |
+| OP08-035 | BB | ✅ implemented |  |
+| OP08-037 | Garchu | ❌ unsupported |  |
+| OP08-038 | We Would Never Sell a Comrade to an Enemy!!! | ❌ unsupported |  |
+| OP08-040 | Atmos | ❌ unsupported |  |
+| OP08-041 | Aphelandra | ❌ unsupported |  |
+| OP08-042 | Edward Weevil | ✅ implemented |  |
+| OP08-043 | Edward.Newgate | ❌ unsupported |  |
+| OP08-044 | Kingdew | ❌ unsupported |  |
+| OP08-045 | Thatch | ❌ unsupported |  |
+| OP08-046 | Shakuyaku | ❌ unsupported |  |
+| OP08-047 | Jozu | ❌ unsupported |  |
+| OP08-048 | Sweetpea | ✅ implemented |  |
+| OP08-049 | Speed Jil | ❌ unsupported |  |
+| OP08-050 | Namule | ❌ unsupported |  |
+| OP08-051 | Buckin | ❌ unsupported |  |
+| OP08-052 | Portgas.D.Ace | ❌ unsupported |  |
+| OP08-053 | Thank You...for Loving Me!! | ❌ unsupported |  |
+| OP08-054 | You Can't Take Our King This Early in the Game. | ❌ unsupported |  |
+| OP08-055 | Phoenix Brand | ❌ unsupported |  |
+| OP08-057 | King | ❌ unsupported |  |
+| OP08-058 | Charlotte Pudding | ❌ unsupported |  |
+| OP08-059 | Alber | ❌ unsupported |  |
+| OP08-060 | King | ❌ unsupported |  |
+| OP08-061 | Charlotte Oven | ❌ unsupported |  |
+| OP08-062 | Charlotte Katakuri | ❌ unsupported |  |
+| OP08-063 | Charlotte Katakuri | ❌ unsupported |  |
+| OP08-064 | Charlotte Cracker | ❌ unsupported |  |
+| OP08-065 | Charlotte Smoothie | ✅ implemented |  |
+| OP08-066 | Charlotte Brulee | ✅ implemented |  |
+| OP08-067 | Charlotte Pudding | ❌ unsupported |  |
+| OP08-068 | Charlotte Perospero | ❌ unsupported |  |
+| OP08-069 | Charlotte Linlin (Parallel) | ❌ unsupported |  |
+| OP08-070 | Baron Tamago | ❌ unsupported |  |
+| OP08-071 | Count Niwatori | ❌ unsupported |  |
+| OP08-072 | Biscuit Warrior | ❌ unsupported |  |
+| OP08-073 | Viscount Hiyoko | ❌ unsupported |  |
+| OP08-074 | Black Maria (Parallel) | ❌ unsupported |  |
+| OP08-075 | Candy Maiden | ❌ unsupported |  |
+| OP08-076 | It's to Die For | ❌ unsupported |  |
+| OP08-077 | Conquest of the Sea | ❌ unsupported |  |
+| OP08-078 | Ulti | ✅ implemented |  |
+| OP08-079 | Kaido (Parallel) | ❌ unsupported |  |
+| OP08-080 | Queen | ❌ unsupported |  |
+| OP08-081 | Guernica | ❌ unsupported |  |
+| OP08-082 | Sasaki | ❌ unsupported |  |
+| OP08-083 | Sheepshead | ❌ unsupported |  |
+| OP08-085 | Jinbe | ❌ unsupported |  |
+| OP08-086 | Ginrummy | ❌ unsupported |  |
+| OP08-087 | Scratchmen Apoo | ❌ unsupported |  |
+| OP08-088 | Duval | ❌ unsupported |  |
+| OP08-089 | Basil Hawkins | ✅ implemented |  |
+| OP08-090 | Hamlet | ❌ unsupported |  |
+| OP08-092 | Page One | ❌ unsupported |  |
+| OP08-093 | X.Drake | ❌ unsupported |  |
+| OP08-094 | Imperial Flame | ❌ unsupported |  |
+| OP08-095 | Iron Body Fang Flash | ❌ unsupported |  |
+| OP08-096 | People's Dreams Don't Ever End!! | ❌ unsupported |  |
+| OP08-097 | Heliceratops | ❌ unsupported |  |
+| OP08-098 | Kalgara | ❌ unsupported |  |
+| OP08-099 | Kalgara | ✅ implemented |  |
+| OP08-100 | South Bird | ❌ unsupported |  |
+| OP08-101 | Charlotte Angel | ❌ unsupported |  |
+| OP08-102 | Charlotte Opera | ❌ unsupported |  |
+| OP08-103 | Charlotte Custard | ❌ unsupported |  |
+| OP08-104 | Charlotte Poire | ❌ unsupported |  |
+| OP08-105 | Jewelry Bonney (Parallel) | ❌ unsupported |  |
+| OP08-106 | Nami (Parallel) | ❌ unsupported |  |
+| OP08-107 | Nitro | ❌ unsupported |  |
+| OP08-108 | Mont Blanc Cricket | ✅ implemented |  |
+| OP08-109 | Mont Blanc Noland | ❌ unsupported |  |
+| OP08-110 | Wyper (Parallel) | ❌ unsupported |  |
+| OP08-111 | S-Shark | ❌ unsupported |  |
+| OP08-112 | S-Snake (Parallel) | ❌ unsupported |  |
+| OP08-113 | S-Bear | ❌ unsupported |  |
+| OP08-114 | S-Hawk | ❌ unsupported |  |
+| OP08-116 | Burn Bazooka | ❌ unsupported |  |
+| OP08-117 | Burn Blade | ❌ unsupported |  |
+| OP08-118 | Silvers Rayleigh | ❌ unsupported |  |
+| OP08-119 | Kaido & Linlin | ❌ unsupported |  |
+
+## OP-09 — 13/106
+
+| Card | Name | Status | Note |
+|---|---|---|---|
+| OP09-001 | Shanks | ❌ unsupported |  |
+| OP09-002 | Uta | ✅ implemented |  |
+| OP09-003 | Shachi & Penguin | ❌ unsupported |  |
+| OP09-004 | Shanks | ❌ unsupported |  |
+| OP09-005 | Silvers Rayleigh | ❌ unsupported |  |
+| OP09-008 | Building Snake | ❌ unsupported |  |
+| OP09-009 | Benn.Beckman | ❌ unsupported |  |
+| OP09-010 | Bonk Punch | ❌ unsupported |  |
+| OP09-011 | Hongo | ❌ unsupported |  |
+| OP09-012 | Monster | ❌ unsupported |  |
+| OP09-013 | Yasopp | ❌ unsupported |  |
+| OP09-014 | Limejuice | ❌ unsupported |  |
+| OP09-015 | Lucky.Roux | ❌ unsupported |  |
+| OP09-018 | Get Out of Here! | ❌ unsupported |  |
+| OP09-019 | Nobody Hurts a Friend of Mine!!!! | ❌ unsupported |  |
+| OP09-020 | Come On!! We'll Fight You!! | ✅ implemented |  |
+| OP09-021 | Red Force | ❌ unsupported |  |
+| OP09-022 | Lim (022) (Parallel) | ❌ unsupported |  |
+| OP09-023 | Adio | ❌ unsupported |  |
+| OP09-024 | Usopp | ❌ unsupported |  |
+| OP09-025 | Crocodile | ❌ unsupported |  |
+| OP09-026 | Sakazuki | ❌ unsupported |  |
+| OP09-027 | Sabo | ❌ unsupported |  |
+| OP09-028 | Sanji | ❌ unsupported |  |
+| OP09-029 | Tony Tony.Chopper | ❌ unsupported |  |
+| OP09-030 | Trafalgar Law | ❌ unsupported |  |
+| OP09-031 | Donquixote Doflamingo | ❌ unsupported |  |
+| OP09-032 | Donquixote Rosinante | ❌ unsupported |  |
+| OP09-033 | Nico Robin | ❌ unsupported |  |
+| OP09-034 | Perona | ❌ unsupported |  |
+| OP09-035 | Portgas.D.Ace | ❌ unsupported |  |
+| OP09-036 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP09-037 | Lim | ❌ unsupported |  |
+| OP09-039 | Gum-Gum Cuatro Jet Cross Shock Bazooka | ❌ unsupported |  |
+| OP09-040 | Thunder Lance Flip Caliber Phoenix Shot | ❌ unsupported |  |
+| OP09-042 | Buggy | ❌ unsupported |  |
+| OP09-043 | Alvida | ❌ unsupported |  |
+| OP09-044 | Izo | ❌ unsupported |  |
+| OP09-045 | Cabaji | ❌ unsupported |  |
+| OP09-046 | Crocodile | ❌ unsupported |  |
+| OP09-047 | Kouzuki Oden | ❌ unsupported |  |
+| OP09-048 | Dracule Mihawk | ✅ implemented |  |
+| OP09-049 | Jozu | ✅ implemented |  |
+| OP09-050 | Nami | ❌ unsupported |  |
+| OP09-051 | Buggy | ❌ unsupported |  |
+| OP09-053 | Mohji | ❌ unsupported |  |
+| OP09-054 | Richie | ✅ implemented |  |
+| OP09-055 | Mr.1(Daz.Bonez) | ✅ implemented |  |
+| OP09-056 | Mr.3(Galdino) | ✅ implemented |  |
+| OP09-057 | Cross Guild | ✅ implemented |  |
+| OP09-058 | Special Muggy Ball | ❌ unsupported |  |
+| OP09-059 | Murder at the Steam Bath | ❌ unsupported |  |
+| OP09-060 | Emptee Bluffs Island | ❌ unsupported |  |
+| OP09-061 | Monkey.D.Luffy (061) (Parallel) | ❌ unsupported |  |
+| OP09-062 | Nico Robin | ❌ unsupported |  |
+| OP09-063 | Usopp | ✅ implemented |  |
+| OP09-064 | Killer | ❌ unsupported |  |
+| OP09-065 | Sanji | ❌ unsupported |  |
+| OP09-068 | Tony Tony.Chopper | ❌ unsupported |  |
+| OP09-069 | Trafalgar Law | ❌ unsupported |  |
+| OP09-070 | Nami | ❌ unsupported |  |
+| OP09-071 | Nico Robin | ✅ implemented |  |
+| OP09-072 | Franky | ❌ unsupported |  |
+| OP09-073 | Brook | ❌ unsupported |  |
+| OP09-074 | Bepo | ❌ unsupported |  |
+| OP09-075 | Eustass"Captain"Kid | ❌ unsupported |  |
+| OP09-076 | Roronoa Zoro | ❌ unsupported |  |
+| OP09-077 | Gum-Gum Lightning | ❌ unsupported |  |
+| OP09-078 | Gum-Gum Giant | ❌ unsupported |  |
+| OP09-079 | Gum-Gum Jump Rope | ❌ unsupported |  |
+| OP09-080 | Thousand Sunny | ❌ unsupported |  |
+| OP09-081 | Marshall.D.Teach (081) (Parallel) | ❌ unsupported |  |
+| OP09-083 | Van Augur | ❌ unsupported |  |
+| OP09-084 | Catarina Devon | ❌ unsupported |  |
+| OP09-085 | Gecko Moria | ❌ unsupported |  |
+| OP09-086 | Jesus Burgess | ❌ unsupported |  |
+| OP09-087 | Charlotte Pudding | ❌ unsupported |  |
+| OP09-088 | Shiryu | ❌ unsupported |  |
+| OP09-089 | Stronger | ❌ unsupported |  |
+| OP09-090 | Doc Q | ❌ unsupported |  |
+| OP09-091 | Vasco Shot | ✅ implemented |  |
+| OP09-093 | Marshall.D.Teach | ❌ unsupported |  |
+| OP09-094 | Peachbeard | ✅ implemented |  |
+| OP09-095 | Laffitte | ❌ unsupported |  |
+| OP09-096 | My Era...Begins!! | ❌ unsupported |  |
+| OP09-097 | Black Vortex | ❌ unsupported |  |
+| OP09-098 | Black Hole | ❌ unsupported |  |
+| OP09-099 | Fullalead | ❌ unsupported |  |
+| OP09-100 | Karasu | ❌ unsupported |  |
+| OP09-101 | Kuzan | ❌ unsupported |  |
+| OP09-102 | Professor Clover | ❌ unsupported |  |
+| OP09-103 | Koala | ❌ unsupported |  |
+| OP09-104 | Sabo | ❌ unsupported |  |
+| OP09-105 | Sanji | ❌ unsupported |  |
+| OP09-106 | Nico Olvia | ❌ unsupported |  |
+| OP09-107 | Nico Robin | ❌ unsupported |  |
+| OP09-108 | Bartholomew Kuma | ❌ unsupported |  |
+| OP09-109 | Jaguar.D.Saul | ❌ unsupported |  |
+| OP09-110 | Pierre | ✅ implemented |  |
+| OP09-111 | Brook | ❌ unsupported |  |
+| OP09-112 | Belo Betty | ❌ unsupported |  |
+| OP09-114 | Lindbergh | ❌ unsupported |  |
+| OP09-116 | Never Underestimate the Power of Miracles!! | ❌ unsupported |  |
+| OP09-117 | Dereshi! | ❌ unsupported |  |
+| OP09-118 | Gol.D.Roger | ❌ unsupported |  |
+| OP09-119 | Monkey.D.Luffy | ❌ unsupported |  |
+
+## OP-10 — 13/104
+
+| Card | Name | Status | Note |
+|---|---|---|---|
+| OP10-001 | Smoker | ❌ unsupported |  |
+| OP10-002 | Caesar Clown (002) (Parallel) | ❌ unsupported |  |
+| OP10-003 | Sugar (003) (Parallel) | ❌ unsupported |  |
+| OP10-004 | Vergo | ❌ unsupported |  |
+| OP10-005 | Sanji | ❌ unsupported |  |
+| OP10-006 | Caesar Clown | ❌ unsupported |  |
+| OP10-007 | Ceaser Soldier | ❌ unsupported |  |
+| OP10-009 | Smiley | ❌ unsupported |  |
+| OP10-011 | Tony Tony.Chopper | ❌ unsupported |  |
+| OP10-012 | Dragon Number Thirteen | ✅ implemented |  |
+| OP10-013 | Nami | ✅ implemented |  |
+| OP10-014 | Franky | ✅ implemented |  |
+| OP10-015 | Mocha | ❌ unsupported |  |
+| OP10-016 | Monet | ❌ unsupported |  |
+| OP10-018 | Ten-Layer Igloo | ❌ unsupported |  |
+| OP10-019 | Divine Departure | ❌ unsupported |  |
+| OP10-020 | Gum-Gum UFO | ❌ unsupported |  |
+| OP10-021 | Punk Hazard | ❌ unsupported |  |
+| OP10-022 | Trafalgar Law | ❌ unsupported |  |
+| OP10-023 | Issho | ❌ unsupported |  |
+| OP10-024 | Edward.Newgate | ❌ unsupported |  |
+| OP10-025 | Enel | ❌ unsupported |  |
+| OP10-026 | Kin'emon | ❌ unsupported |  |
+| OP10-027 | Kin'emon | ❌ unsupported |  |
+| OP10-028 | Kouzuki Momonosuke | ❌ unsupported |  |
+| OP10-029 | Dracule Mihawk | ❌ unsupported |  |
+| OP10-030 | Smoker | ❌ unsupported |  |
+| OP10-032 | Tashigi | ❌ unsupported |  |
+| OP10-033 | Nami | ❌ unsupported |  |
+| OP10-034 | Franky | ❌ unsupported |  |
+| OP10-035 | Brook | ❌ unsupported |  |
+| OP10-036 | Perona | ❌ unsupported |  |
+| OP10-037 | Lim | ❌ unsupported |  |
+| OP10-038 | Roronoa Zoro | ❌ unsupported |  |
+| OP10-039 | Gum-Gum Dragon Fire Pistol Twister Star | ❌ unsupported |  |
+| OP10-040 | The Weak Do Not Have the Right to Choose How They Die | ❌ unsupported |  |
+| OP10-041 | Radio Knife | ❌ unsupported |  |
+| OP10-042 | Usopp | ❌ unsupported |  |
+| OP10-043 | Moocy | ❌ unsupported |  |
+| OP10-045 | Cavendish | ✅ implemented |  |
+| OP10-046 | Kyros | ✅ implemented |  |
+| OP10-047 | Koala | ❌ unsupported |  |
+| OP10-049 | Sabo | ❌ unsupported |  |
+| OP10-051 | Hack | ✅ implemented |  |
+| OP10-052 | Bartolomeo | ❌ unsupported |  |
+| OP10-055 | Marco | ❌ unsupported |  |
+| OP10-056 | Mansherry | ❌ unsupported |  |
+| OP10-057 | Leo | ❌ unsupported |  |
+| OP10-058 | Rebecca | ❌ unsupported |  |
+| OP10-059 | Fo...llow...Me...and...I...Will...Gui...de...You | ✅ implemented |  |
+| OP10-060 | Barrier-Barrier Pistol | ❌ unsupported |  |
+| OP10-061 | Special Long-Range Attack!! Bagworm | ❌ unsupported |  |
+| OP10-062 | Violet | ❌ unsupported |  |
+| OP10-063 | Vinsmoke Sanji | ❌ unsupported |  |
+| OP10-064 | Clone Soldier | ✅ implemented |  |
+| OP10-065 | Sugar | ❌ unsupported |  |
+| OP10-066 | Giolla | ❌ unsupported |  |
+| OP10-067 | Senor Pink | ❌ unsupported |  |
+| OP10-070 | Trebol | ❌ unsupported |  |
+| OP10-071 | Donquixote Doflamingo | ❌ unsupported |  |
+| OP10-072 | Donquixote Rosinante | ❌ unsupported |  |
+| OP10-074 | Pica | ❌ unsupported |  |
+| OP10-075 | Foxy | ❌ unsupported |  |
+| OP10-076 | Baby 5 | ❌ unsupported |  |
+| OP10-077 | Bellamy | ❌ unsupported |  |
+| OP10-078 | I Do Not Forgive Those Who Laugh at My Family!!! | ❌ unsupported |  |
+| OP10-079 | God Thread | ❌ unsupported |  |
+| OP10-080 | Little Black Bears | ❌ unsupported |  |
+| OP10-081 | Usopp | ❌ unsupported |  |
+| OP10-082 | Kuzan | ❌ unsupported |  |
+| OP10-083 | Kouzuki Momonosuke | ❌ unsupported |  |
+| OP10-084 | Sanjuan.Wolf | ✅ implemented |  |
+| OP10-085 | Jesus Burgess | ❌ unsupported |  |
+| OP10-086 | Shiryu | ❌ unsupported |  |
+| OP10-087 | Tony Tony.Chopper | ❌ unsupported |  |
+| OP10-088 | Nami | ❌ unsupported |  |
+| OP10-089 | Nico Robin | ✅ implemented |  |
+| OP10-090 | Franky | ❌ unsupported |  |
+| OP10-092 | Perona | ❌ unsupported |  |
+| OP10-094 | Ryuma | ❌ unsupported |  |
+| OP10-095 | Roronoa Zoro | ❌ unsupported |  |
+| OP10-097 | Gum-Gum Rhino Schneider | ❌ unsupported |  |
+| OP10-098 | Liberation | ❌ unsupported |  |
+| OP10-099 | Eustass"Captain"Kid | ❌ unsupported |  |
+| OP10-100 | Inazuma | ❌ unsupported |  |
+| OP10-101 | Urouge | ✅ implemented |  |
+| OP10-102 | Emporio.Ivankov | ❌ unsupported |  |
+| OP10-103 | Capone"Gang"Bege | ❌ unsupported |  |
+| OP10-104 | Caribou | ❌ unsupported |  |
+| OP10-105 | Cavendish | ✅ implemented |  |
+| OP10-106 | Killer | ❌ unsupported |  |
+| OP10-107 | Jewelry Bonney | ❌ unsupported |  |
+| OP10-108 | Scratchmen Apoo | ❌ unsupported |  |
+| OP10-109 | Basil Hawkins | ❌ unsupported |  |
+| OP10-110 | Heat & Wire | ❌ unsupported |  |
+| OP10-111 | Monkey.D.Luffy | ✅ implemented |  |
+| OP10-112 | Eustass"Captain"Kid | ❌ unsupported |  |
+| OP10-113 | Roronoa Zoro | ❌ unsupported |  |
+| OP10-114 | X.Drake | ❌ unsupported |  |
+| OP10-115 | Let's Meet Again in the New World | ❌ unsupported |  |
+| OP10-116 | Damned Punk | ❌ unsupported |  |
+| OP10-117 | ROOM | ❌ unsupported |  |
+| OP10-118 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP10-119 | Trafalgar Law | ❌ unsupported |  |
+
+## OP-11 — 13/98
+
+| Card | Name | Status | Note |
+|---|---|---|---|
+| OP11-001 | Koby (001) (Alternate Art) | ❌ unsupported |  |
+| OP11-003 | Usopp | ✅ implemented |  |
+| OP11-004 | Kujyaku | ❌ unsupported |  |
+| OP11-005 | Smoker | ❌ unsupported |  |
+| OP11-007 | Tashigi | ❌ unsupported |  |
+| OP11-008 | Doll | ❌ unsupported |  |
+| OP11-009 | Nico Robin | ❌ unsupported |  |
+| OP11-010 | Hibari | ❌ unsupported |  |
+| OP11-012 | Franky | ❌ unsupported |  |
+| OP11-013 | Prince Grus | ❌ unsupported |  |
+| OP11-014 | Borsalino | ❌ unsupported |  |
+| OP11-016 | Roronoa Zoro | ✅ implemented |  |
+| OP11-017 | X.Drake | ✅ implemented |  |
+| OP11-018 | Honesty Impact | ❌ unsupported |  |
+| OP11-019 | Glorp Web!! | ❌ unsupported |  |
+| OP11-020 | X Calibur | ❌ unsupported |  |
+| OP11-021 | Jinbe (021) (Alternate Art) | ❌ unsupported |  |
+| OP11-022 | Shirahoshi (022) (Alternate Art) | ❌ unsupported |  |
+| OP11-023 | Arlong | ❌ unsupported |  |
+| OP11-024 | Aladine | ❌ unsupported |  |
+| OP11-025 | Ishilly | ❌ unsupported |  |
+| OP11-026 | Scaled Neptunian | ✅ implemented |  |
+| OP11-027 | Bulge-Eyed Neptunian | ❌ unsupported |  |
+| OP11-028 | Lord of the Coast | ❌ unsupported |  |
+| OP11-029 | Charlotte Praline | ✅ implemented |  |
+| OP11-030 | Shirahoshi | ❌ unsupported |  |
+| OP11-031 | Jinbe | ❌ unsupported |  |
+| OP11-032 | Surume | ✅ implemented |  |
+| OP11-033 | Bird Neptunian | ✅ implemented |  |
+| OP11-034 | Hatchan | ❌ unsupported |  |
+| OP11-035 | Fisher Tiger | ❌ unsupported |  |
+| OP11-036 | Spotted Neptunian | ❌ unsupported |  |
+| OP11-037 | Ancient Weapon Poseidon | ❌ unsupported |  |
+| OP11-038 | Gum-Gum Elephant Gatling | ❌ unsupported |  |
+| OP11-039 | Vagabond Drill | ❌ unsupported |  |
+| OP11-040 | Monkey.D.Luffy (040) (Alternate Art) | ❌ unsupported |  |
+| OP11-041 | Nami | ❌ unsupported |  |
+| OP11-043 | Vinsmoke Ichiji | ❌ unsupported |  |
+| OP11-044 | Vinsmoke Judge | ❌ unsupported |  |
+| OP11-045 | Vinsmoke Niji | ✅ implemented |  |
+| OP11-046 | Vinsmoke Yonji | ❌ unsupported |  |
+| OP11-047 | Vinsmoke Reiju | ❌ unsupported |  |
+| OP11-048 | Capone"Gang"Bege | ❌ unsupported |  |
+| OP11-049 | Carrot | ❌ unsupported |  |
+| OP11-051 | Sanji | ❌ unsupported |  |
+| OP11-053 | Tony Tony.Chopper | ✅ implemented |  |
+| OP11-054 | Nami | ❌ unsupported |  |
+| OP11-056 | Brook | ❌ unsupported |  |
+| OP11-058 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP11-059 | Gum-Gum King Cobra | ❌ unsupported |  |
+| OP11-060 | Let's Crash This Wedding!!! | ❌ unsupported |  |
+| OP11-061 | Gum-Gum Jet Culverin | ❌ unsupported |  |
+| OP11-062 | Charlotte Katakuri (062) (Alternate Art) | ❌ unsupported |  |
+| OP11-063 | Little Sadi | ❌ unsupported |  |
+| OP11-065 | Charlotte Anana | ❌ unsupported |  |
+| OP11-066 | Charlotte Oven | ❌ unsupported |  |
+| OP11-067 | Charlotte Katakuri | ❌ unsupported |  |
+| OP11-068 | Charlotte Daifuku | ✅ implemented |  |
+| OP11-069 | Charlotte Brulee | ❌ unsupported |  |
+| OP11-070 | Charlotte Pudding | ❌ unsupported |  |
+| OP11-071 | Charlotte Perospero | ❌ unsupported |  |
+| OP11-072 | Charlotte Mont-d'or | ❌ unsupported |  |
+| OP11-073 | Charlotte Linlin | ❌ unsupported |  |
+| OP11-074 | Streusen | ❌ unsupported |  |
+| OP11-075 | Jaguar.D.Saul | ❌ unsupported |  |
+| OP11-078 | Decuplets | ✅ implemented |  |
+| OP11-079 | When Two Men Are Fighting the Last Thing I Need Is Some Half-Hearted Assistance!!!! | ❌ unsupported |  |
+| OP11-080 | Gear Two | ❌ unsupported |  |
+| OP11-081 | Cognac Mama-Mash | ❌ unsupported |  |
+| OP11-082 | Aramaki | ❌ unsupported |  |
+| OP11-083 | Caribou | ❌ unsupported |  |
+| OP11-084 | Kuzan | ❌ unsupported |  |
+| OP11-088 | Shu | ❌ unsupported |  |
+| OP11-091 | Berry Good | ❌ unsupported |  |
+| OP11-092 | Helmeppo | ❌ unsupported |  |
+| OP11-093 | Bogard | ✅ implemented |  |
+| OP11-095 | Monkey.D.Garp | ❌ unsupported |  |
+| OP11-096 | Ripper | ❌ unsupported |  |
+| OP11-097 | After All These Years I'm Losing My Edge!!! | ❌ unsupported |  |
+| OP11-098 | Blue Hole | ❌ unsupported |  |
+| OP11-099 | I'm Gonna Be a Navy Officer!!! | ❌ unsupported |  |
+| OP11-100 | Otohime | ❌ unsupported |  |
+| OP11-101 | Capone"Gang"Bege | ❌ unsupported |  |
+| OP11-102 | Camie | ❌ unsupported |  |
+| OP11-103 | Long-Jaw Neptunian | ❌ unsupported |  |
+| OP11-104 | Shirley | ❌ unsupported |  |
+| OP11-106 | Zeus | ❌ unsupported |  |
+| OP11-107 | Topknot Neptunian | ❌ unsupported |  |
+| OP11-108 | Neptune | ❌ unsupported |  |
+| OP11-110 | Fukaboshi | ❌ unsupported |  |
+| OP11-111 | Mamboshi | ✅ implemented |  |
+| OP11-112 | Megalo | ❌ unsupported |  |
+| OP11-114 | Gum-Gum Fire-Fist Pistol Red Hawk | ❌ unsupported |  |
+| OP11-115 | You're Just Not My Type! | ❌ unsupported |  |
+| OP11-116 | Merman Combat Ultramarine | ❌ unsupported |  |
+| OP11-117 | Fish-Man Island | ❌ unsupported |  |
+| OP11-118 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP11-119 | Koby | ❌ unsupported |  |
 

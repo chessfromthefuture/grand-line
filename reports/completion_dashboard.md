@@ -1,12 +1,14 @@
-# Completion Dashboard — measured only (2026-06-16, M12)
+# Completion Dashboard — measured only (2026-06-16, M14)
 | Metric | Measured |
 |---|---|
-| Engine completion | 7/7 windows, 32 DSL clauses; resolution stack guarded |
-| Card corpus acquired | **651 / ~2,690 (24%)** — 11 sets: ST01–05 + OP01–05 |
-| OP set completeness | OP-01 121/121, OP-02 121/121; OP-03/04/05 partial (single-fetch, gaps logged) |
-| Cards fully playable | **217 / 651 (33%)** — hand-scripted + auto A-class + vanilla; 1 partial |
+| Engine completion | 7/7 windows, 34 DSL clauses (+DON-ramp); resolution stack guarded |
+| Card corpus acquired | **1,266 / ~2,690 (47%)** — 17 sets: ST01–05 + OP01–11 |
+| OP set completeness | OP-01/02 complete (121); OP-03..11 partial (single-fetch, gaps logged) |
+| Cards fully playable | **288 / 1,266 (23%)** — hand-scripted + auto A-class + vanilla; 1 partial |
+| Repo | github.com/chessfromthefuture/grand-line (private) |
 | Playable decks | ST01–05 + OP01R (legal 50, fuzz-validated) |
-| Test coverage | **68/68 passing** |
+| Test coverage | **69/69 passing** |
+| Pipeline hardening | dual-color + dual-attribute parsing, foreign-reprint filter (all caught by ingest) |
 | Golden replays | 10 games bit-exact (`test/golden/goldens.json`) |
 | Fuzz | 400–500 game sweep, 0 violations; CI-gateable |
 | CI firewall | `npm run ci` — 5 gates, ALL GREEN |

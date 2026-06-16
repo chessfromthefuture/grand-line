@@ -11,6 +11,12 @@ import { OP02_CARDS } from "../data/op02.cards.js";
 import { OP03_CARDS } from "../data/op03.cards.js";
 import { OP04_CARDS } from "../data/op04.cards.js";
 import { OP05_CARDS } from "../data/op05.cards.js";
+import { OP06_CARDS } from "../data/op06.cards.js";
+import { OP07_CARDS } from "../data/op07.cards.js";
+import { OP08_CARDS } from "../data/op08.cards.js";
+import { OP09_CARDS } from "../data/op09.cards.js";
+import { OP10_CARDS } from "../data/op10.cards.js";
+import { OP11_CARDS } from "../data/op11.cards.js";
 import { AUTO_SCRIPTS } from "../data/auto.scripts.js";
 
 const REGISTRY = new Map();
@@ -31,6 +37,12 @@ registerSet(OP02_CARDS, {});
 registerSet(OP03_CARDS, {});
 registerSet(OP04_CARDS, {});
 registerSet(OP05_CARDS, {});
+registerSet(OP06_CARDS, {});
+registerSet(OP07_CARDS, {});
+registerSet(OP08_CARDS, {});
+registerSet(OP09_CARDS, {});
+registerSet(OP10_CARDS, {});
+registerSet(OP11_CARDS, {});
 // auto-generated A-class scripts fill remaining gaps; hand-written always wins
 for (const [code, s] of Object.entries(AUTO_SCRIPTS))
   if (!SCRIPTS.has(code)) SCRIPTS.set(code, s);

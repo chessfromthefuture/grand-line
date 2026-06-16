@@ -20,6 +20,17 @@ test("parses [Activate: Main] DON!! -N cost-return into cost.returnDon", () => {
   assert.equal(r.class, "A", "fully auto-classifiable");
 });
 
+// DON-ramp clause (top gap after OP-02..05).
+test("parses DON-ramp 'add up to N DON!! … and rest/set active' into addDon", () => {
+  const rest = generateFor({ code: "TST-R1", category: "Character", colors: ["Red"], cost: 2, power: 3000,
+    text: "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.", triggerText: null });
+  assert.deepEqual(rest.script.onPlay.ops[0], { op: "addDon", count: 1, rested: true });
+  assert.equal(rest.class, "A");
+  const active = generateFor({ code: "TST-R2", category: "Character", colors: ["Red"], cost: 2, power: 3000,
+    text: "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.", triggerText: null });
+  assert.deepEqual(active.script.onPlay.ops[0], { op: "addDon", count: 1, rested: false });
+});
+
 // (N) rest-DON cost prefix.
 test("parses (N) rest-DON cost prefix into cost.restDon", () => {
   const card = {
