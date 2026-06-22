@@ -1,6 +1,6 @@
 # Card Coverage Dashboard
 
-Total: **1266** · Implemented: **288** (22.7%) · Partial: **1** · Unsupported: **977**
+Total: **1459** · Implemented: **313** (21.5%) · Partial: **1** · Unsupported: **1145**
 
 ## ST-01 — 17/17
 
@@ -1347,4 +1347,207 @@ Total: **1266** · Implemented: **288** (22.7%) · Partial: **1** · Unsupported
 | OP11-117 | Fish-Man Island | ❌ unsupported |  |
 | OP11-118 | Monkey.D.Luffy | ❌ unsupported |  |
 | OP11-119 | Koby | ❌ unsupported |  |
+
+## OP-12 — 13/98
+
+| Card | Name | Status | Note |
+|---|---|---|---|
+| OP12-001 | Silvers Rayleigh | ❌ unsupported |  |
+| OP12-002 | Edward.Newgate | ✅ implemented |  |
+| OP12-003 | Crocus | ❌ unsupported |  |
+| OP12-004 | Kouzuki Oden | ❌ unsupported |  |
+| OP12-006 | Shakuyaku | ❌ unsupported |  |
+| OP12-007 | Shanks | ❌ unsupported |  |
+| OP12-008 | Shanks | ❌ unsupported |  |
+| OP12-009 | Jinbe | ❌ unsupported |  |
+| OP12-010 | Douglas Bullet | ✅ implemented |  |
+| OP12-012 | Buggy | ❌ unsupported |  |
+| OP12-013 | Hatchan | ❌ unsupported |  |
+| OP12-014 | Boa Hancock | ❌ unsupported |  |
+| OP12-015 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP12-016 | To Never Doubt--That Is Power! | ❌ unsupported |  |
+| OP12-017 | Color of Observation Haki | ❌ unsupported |  |
+| OP12-018 | Color of the Supreme King Haki | ❌ unsupported |  |
+| OP12-019 | Color of Arms Haki | ❌ unsupported |  |
+| OP12-020 | Roronoa Zoro | ❌ unsupported |  |
+| OP12-021 | Ipponmatsu | ❌ unsupported |  |
+| OP12-022 | Inuarashi | ❌ unsupported |  |
+| OP12-023 | Kawamatsu | ✅ implemented |  |
+| OP12-024 | Gyukimaru | ❌ unsupported |  |
+| OP12-026 | Kuina | ❌ unsupported |  |
+| OP12-027 | Koushirou | ❌ unsupported |  |
+| OP12-028 | Kouzuki Hiyori | ❌ unsupported |  |
+| OP12-029 | Shimotsuki Kouzaburou | ❌ unsupported |  |
+| OP12-030 | Dracule Mihawk | ❌ unsupported |  |
+| OP12-031 | Tashigi | ❌ unsupported |  |
+| OP12-032 | Nekomamushi | ✅ implemented |  |
+| OP12-033 | Helmeppo | ✅ implemented |  |
+| OP12-034 | Perona | ❌ unsupported |  |
+| OP12-036 | Roronoa Zoro | ❌ unsupported |  |
+| OP12-037 | Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game | ❌ unsupported |  |
+| OP12-038 | Two-Sword Style Rashomon | ❌ unsupported |  |
+| OP12-039 | Luffy Is the Man Who Will Become the King of Pirates!!! | ❌ unsupported |  |
+| OP12-040 | Kuzan | ❌ unsupported |  |
+| OP12-041 | Sanji | ❌ unsupported |  |
+| OP12-042 | Alvida | ❌ unsupported |  |
+| OP12-043 | Kuzan | ❌ unsupported |  |
+| OP12-044 | Sakazuki | ❌ unsupported |  |
+| OP12-046 | Zephyr(Navy) | ❌ unsupported |  |
+| OP12-047 | Sengoku | ❌ unsupported |  |
+| OP12-048 | Donquixote Rosinante | ❌ unsupported |  |
+| OP12-049 | Buggy | ✅ implemented |  |
+| OP12-050 | Jaguar.D.Saul | ✅ implemented |  |
+| OP12-051 | Hina | ❌ unsupported |  |
+| OP12-053 | Borsalino | ❌ unsupported |  |
+| OP12-055 | Mohji & Cabaji | ✅ implemented |  |
+| OP12-056 | Monkey.D.Garp | ❌ unsupported |  |
+| OP12-057 | Ice Block Pheasant Peck | ❌ unsupported |  |
+| OP12-058 | I Will Make Whitebeard the King of the Pirates | ❌ unsupported |  |
+| OP12-059 | Concasser | ❌ unsupported |  |
+| OP12-060 | Boeuf Burst | ❌ unsupported |  |
+| OP12-062 | Vinsmoke Sora | ❌ unsupported |  |
+| OP12-063 | Vinsmoke Reiju | ❌ unsupported |  |
+| OP12-065 | Emporio.Ivankov | ❌ unsupported |  |
+| OP12-066 | Carne | ❌ unsupported |  |
+| OP12-070 | Sanji | ❌ unsupported |  |
+| OP12-071 | Charlotte Pudding | ❌ unsupported |  |
+| OP12-072 | Zeff | ❌ unsupported |  |
+| OP12-073 | Trafalgar Law | ❌ unsupported |  |
+| OP12-074 | Patty | ❌ unsupported |  |
+| OP12-075 | Ms. All Sunday | ❌ unsupported |  |
+| OP12-076 | Monet | ✅ implemented |  |
+| OP12-077 | The "Extinguishes All Sound Created by Your Influence" Technique | ❌ unsupported |  |
+| OP12-078 | Brochette Blow | ❌ unsupported |  |
+| OP12-079 | Luffy Is the Man Who Will Be King of the Pirates!!! | ❌ unsupported |  |
+| OP12-080 | Baratie | ❌ unsupported |  |
+| OP12-081 | Koala | ❌ unsupported |  |
+| OP12-083 | Inazuma | ✅ implemented |  |
+| OP12-084 | Emporio.Ivankov | ❌ unsupported |  |
+| OP12-085 | Karasu | ❌ unsupported |  |
+| OP12-086 | Koala | ❌ unsupported |  |
+| OP12-087 | Nico Robin | ❌ unsupported |  |
+| OP12-089 | Hack | ❌ unsupported |  |
+| OP12-090 | Belo Betty | ❌ unsupported |  |
+| OP12-093 | Morley | ❌ unsupported |  |
+| OP12-094 | Monkey.D.Dragon | ❌ unsupported |  |
+| OP12-095 | Lindbergh | ❌ unsupported |  |
+| OP12-096 | Ursa Shock | ❌ unsupported |  |
+| OP12-097 | Captains Assembled | ❌ unsupported |  |
+| OP12-098 | Hair Removal Fist | ❌ unsupported |  |
+| OP12-099 | Kalgara | ❌ unsupported |  |
+| OP12-100 | Sabo | ❌ unsupported |  |
+| OP12-101 | Jewelry Bonney | ❌ unsupported |  |
+| OP12-102 | Shirahoshi | ❌ unsupported |  |
+| OP12-103 | Seto | ✅ implemented |  |
+| OP12-106 | Trafalgar Law | ✅ implemented |  |
+| OP12-107 | Donquixote Doflamingo | ❌ unsupported |  |
+| OP12-108 | Donquixote Rosinante | ❌ unsupported |  |
+| OP12-112 | Baby 5 | ❌ unsupported |  |
+| OP12-113 | Roronoa Zoro | ❌ unsupported |  |
+| OP12-114 | Wyper | ✅ implemented |  |
+| OP12-115 | I Love You!! | ❌ unsupported |  |
+| OP12-116 | We'll Ring the Bell Waiting for You!! | ❌ unsupported |  |
+| OP12-117 | Slam Gibson | ❌ unsupported |  |
+| OP12-118 | Jewelry Bonney | ❌ unsupported |  |
+| OP12-119 | Bartholomew Kuma | ❌ unsupported |  |
+
+## OP-13 — 12/95
+
+| Card | Name | Status | Note |
+|---|---|---|---|
+| OP13-001 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP13-002 | Portgas.D.Ace | ❌ unsupported |  |
+| OP13-003 | Gol.D.Roger | ❌ unsupported |  |
+| OP13-004 | Sabo (004) (Alternate Art) | ❌ unsupported |  |
+| OP13-005 | Inazuma | ❌ unsupported |  |
+| OP13-007 | Ace & Sabo & Luffy | ❌ unsupported |  |
+| OP13-008 | Emporio.Ivankov | ❌ unsupported |  |
+| OP13-011 | Nefeltari Cobra | ✅ implemented |  |
+| OP13-012 | Nefeltari Vivi | ❌ unsupported |  |
+| OP13-015 | Makino | ❌ unsupported |  |
+| OP13-016 | Monkey.D.Garp | ❌ unsupported |  |
+| OP13-017 | Monkey.D.Dragon | ❌ unsupported |  |
+| OP13-019 | But Ace Here Said You Deserved It!! | ❌ unsupported |  |
+| OP13-020 | Meteor Fist | ❌ unsupported |  |
+| OP13-021 | Gum-Gum Gatling Gun | ❌ unsupported |  |
+| OP13-023 | Uta | ❌ unsupported |  |
+| OP13-024 | Gordon | ❌ unsupported |  |
+| OP13-025 | Koby | ❌ unsupported |  |
+| OP13-026 | Sunny-Kun | ❌ unsupported |  |
+| OP13-027 | Sanji | ❌ unsupported |  |
+| OP13-028 | Shanks | ❌ unsupported |  |
+| OP13-029 | Jinbe | ✅ implemented |  |
+| OP13-030 | Tony Tony.Chopper | ✅ implemented |  |
+| OP13-031 | Trafalgar Law | ❌ unsupported |  |
+| OP13-032 | Nico Robin | ❌ unsupported |  |
+| OP13-033 | Franky | ❌ unsupported |  |
+| OP13-034 | Brook | ❌ unsupported |  |
+| OP13-035 | Bepo | ❌ unsupported |  |
+| OP13-036 | Helmeppo | ✅ implemented |  |
+| OP13-037 | Roronoa Zoro | ❌ unsupported |  |
+| OP13-038 | Gum-Gum Elephant Gun | ❌ unsupported |  |
+| OP13-039 | Gum-Gum Snake Shot | ✅ implemented |  |
+| OP13-040 | I Know You're Strong... So I'll Go All Out from the Very Start!!! | ❌ unsupported |  |
+| OP13-041 | Izo | ✅ implemented |  |
+| OP13-042 | Edward.Newgate | ❌ unsupported |  |
+| OP13-043 | Otama | ❌ unsupported |  |
+| OP13-046 | Vista | ❌ unsupported |  |
+| OP13-047 | Fossa | ❌ unsupported |  |
+| OP13-050 | Boa Sandersonia | ❌ unsupported |  |
+| OP13-051 | Boa Hancock | ❌ unsupported |  |
+| OP13-052 | Boa Marigold | ❌ unsupported |  |
+| OP13-054 | Yamato | ❌ unsupported |  |
+| OP13-057 | If I Bowed Down to Power, What's the Point in Living? | ❌ unsupported |  |
+| OP13-058 | Phoenix Pyreapple | ❌ unsupported |  |
+| OP13-059 | Brilliant Punk | ❌ unsupported |  |
+| OP13-060 | Amatsuki Toki | ❌ unsupported |  |
+| OP13-061 | Inuarashi | ❌ unsupported |  |
+| OP13-062 | Crocus | ❌ unsupported |  |
+| OP13-063 | Kouzuki Oden | ❌ unsupported |  |
+| OP13-064 | Gol.D.Roger | ❌ unsupported |  |
+| OP13-065 | Shanks | ❌ unsupported |  |
+| OP13-066 | Silvers Rayleigh | ❌ unsupported |  |
+| OP13-067 | Scopper Gaban | ❌ unsupported |  |
+| OP13-068 | Douglas Bullet | ❌ unsupported |  |
+| OP13-071 | Nekomamushi | ❌ unsupported |  |
+| OP13-072 | Buggy | ❌ unsupported |  |
+| OP13-075 | Guess We'll Have Another Scrap. You Can Only Risk Death While You're Still Alive!! | ❌ unsupported |  |
+| OP13-076 | Divine Departure | ❌ unsupported |  |
+| OP13-077 | Go All the Way to the Top!! | ❌ unsupported |  |
+| OP13-078 | Oro Jackson | ❌ unsupported |  |
+| OP13-080 | St. Ethanbaron V. Nusjuro | ❌ unsupported |  |
+| OP13-081 | Koala | ❌ unsupported |  |
+| OP13-083 | St. Jaygarcia Saturn | ❌ unsupported |  |
+| OP13-084 | St. Shepherd Ju Peter | ❌ unsupported |  |
+| OP13-086 | Saint Shalria | ❌ unsupported |  |
+| OP13-087 | Saint Charlos | ❌ unsupported |  |
+| OP13-089 | St. Topman Warcury | ❌ unsupported |  |
+| OP13-090 | Hack | ✅ implemented |  |
+| OP13-091 | St. Marcus Mars | ❌ unsupported |  |
+| OP13-092 | Saint Mjosgard | ❌ unsupported |  |
+| OP13-093 | Morgans | ✅ implemented |  |
+| OP13-095 | Saint Rosward | ❌ unsupported |  |
+| OP13-096 | The Five Elders Are at Your Service!!! | ❌ unsupported |  |
+| OP13-097 | The World's Equilibrium Cannot Be Maintained Forever | ❌ unsupported |  |
+| OP13-098 | Never Existed... in the First Place... | ❌ unsupported |  |
+| OP13-099 | The Empty Throne | ❌ unsupported |  |
+| OP13-100 | Jewelry Bonney | ❌ unsupported |  |
+| OP13-101 | Atlas | ✅ implemented |  |
+| OP13-102 | Edison | ❌ unsupported |  |
+| OP13-104 | Kouzuki Hiyori | ❌ unsupported |  |
+| OP13-105 | Kouzuki Momonosuke | ❌ unsupported |  |
+| OP13-107 | Shaka | ✅ implemented |  |
+| OP13-108 | Jewelry Bonney | ❌ unsupported |  |
+| OP13-109 | Jewelry Bonney | ❌ unsupported |  |
+| OP13-110 | Stussy | ❌ unsupported |  |
+| OP13-111 | Pythagoras | ✅ implemented |  |
+| OP13-112 | Vegapunk | ❌ unsupported |  |
+| OP13-113 | Lilith | ❌ unsupported |  |
+| OP13-114 | S-Snake | ❌ unsupported |  |
+| OP13-115 | Paper Art Afterimage | ❌ unsupported |  |
+| OP13-116 | The One Who Is the Most Free Is the Pirate King!!! | ✅ implemented |  |
+| OP13-117 | Gum-Gum Dawn Stamp | ❌ unsupported |  |
+| OP13-118 | Monkey.D.Luffy | ❌ unsupported |  |
+| OP13-119 | Portgas.D.Ace | ❌ unsupported |  |
+| OP13-120 | Sabo (120) (SP) | ❌ unsupported |  |
 

@@ -1,10 +1,10 @@
-# Completion Dashboard — measured only (2026-06-16, M14)
+# Completion Dashboard — measured only (2026-06-16, M15)
 | Metric | Measured |
 |---|---|
 | Engine completion | 7/7 windows, 34 DSL clauses (+DON-ramp); resolution stack guarded |
-| Card corpus acquired | **1,266 / ~2,690 (47%)** — 17 sets: ST01–05 + OP01–11 |
-| OP set completeness | OP-01/02 complete (121); OP-03..11 partial (single-fetch, gaps logged) |
-| Cards fully playable | **288 / 1,266 (23%)** — hand-scripted + auto A-class + vanilla; 1 partial |
+| Card corpus acquired | **1,459 / ~2,690 (54%)** — 19 sets: ST01–05 + OP01–13 |
+| OP set completeness | OP-01/02 complete (121); OP-03..13 partial (single-fetch, gaps logged) |
+| Cards fully playable | **313 / 1,459 (21%)** — hand-scripted + auto A-class + vanilla; 1 partial |
 | Repo | github.com/chessfromthefuture/grand-line (private) |
 | Playable decks | ST01–05 + OP01R (legal 50, fuzz-validated) |
 | Test coverage | **69/69 passing** |

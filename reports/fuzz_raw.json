@@ -13,7 +13,7 @@
     "invariants": [],
     "divergence": []
   },
-  "scriptedCards": 173,
+  "scriptedCards": 181,
   "executedInFuzz": 65,
   "neverExecuted": [
     "ST01-004",
@@ -123,7 +123,15 @@
     "OP10-064",
     "OP10-111",
     "OP11-016",
-    "OP11-029"
+    "OP11-029",
+    "OP12-033",
+    "OP12-050",
+    "OP12-106",
+    "OP13-030",
+    "OP13-039",
+    "OP13-041",
+    "OP13-093",
+    "OP13-116"
   ],
   "opsExecuted": {
     "setActiveSource": 630,

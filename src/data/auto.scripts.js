@@ -1793,6 +1793,146 @@ export const AUTO_SCRIPTS = {
   },
   "generated": true
  },
+ "OP12-033": {
+  "keywords": [
+   "Blocker"
+  ],
+  "onBlock": {
+   "ops": [
+    {
+     "op": "restTarget",
+     "upTo": true,
+     "target": {
+      "owner": "opp",
+      "zone": "chars",
+      "activeOnly": true,
+      "maxCost": 5,
+      "count": 1
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP12-050": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP12-106": {
+  "keywords": [
+   "Blocker"
+  ],
+  "generated": true
+ },
+ "OP13-030": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "setDonActive",
+     "count": 2
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP13-039": {
+  "counterEvent": {
+   "ops": [
+    {
+     "op": "ko",
+     "upTo": true,
+     "target": {
+      "owner": "opp",
+      "zone": "chars",
+      "restedOnly": true,
+      "maxCost": 4,
+      "count": 1
+     }
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "ko",
+     "upTo": true,
+     "target": {
+      "owner": "opp",
+      "zone": "chars",
+      "restedOnly": true,
+      "maxCost": 4,
+      "count": 1
+     }
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP13-041": {
+  "onPlay": {
+   "ops": [
+    {
+     "op": "draw",
+     "count": 2
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP13-093": {
+  "keywords": [
+   "Blocker"
+  ],
+  "onPlay": {
+   "ops": [
+    {
+     "op": "draw",
+     "count": 2
+    },
+    {
+     "op": "discardFromHand",
+     "owner": "self",
+     "count": 2
+    }
+   ]
+  },
+  "generated": true
+ },
+ "OP13-116": {
+  "mainEvent": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 5,
+     "match": {
+      "hasType": "Supernovas"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "trigger": {
+   "ops": [
+    {
+     "op": "searchTop",
+     "count": 5,
+     "match": {
+      "hasType": "Supernovas"
+     },
+     "take": {
+      "upTo": 1
+     },
+     "restTo": "bottom"
+    }
+   ]
+  },
+  "generated": true
+ },
  "ST03-005": {
   "whenAttacking": {
    "requiresDon": 1,

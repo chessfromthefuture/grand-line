@@ -1,9 +1,9 @@
 {
-  "generated": "2026-06-16T20:28:53.670Z",
-  "total": 1266,
-  "implemented": 288,
+  "generated": "2026-06-22T11:49:36.364Z",
+  "total": 1459,
+  "implemented": 313,
   "partial": 1,
-  "unsupported": 977,
+  "unsupported": 1145,
   "rows": [
     {
       "code": "ST01-001",
@@ -8864,6 +8864,1357 @@
       "code": "OP11-119",
       "name": "Koby",
       "set": "OP-11",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-001",
+      "name": "Silvers Rayleigh",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-002",
+      "name": "Edward.Newgate",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-003",
+      "name": "Crocus",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-004",
+      "name": "Kouzuki Oden",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-006",
+      "name": "Shakuyaku",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-007",
+      "name": "Shanks",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-008",
+      "name": "Shanks",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-009",
+      "name": "Jinbe",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-010",
+      "name": "Douglas Bullet",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-012",
+      "name": "Buggy",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-013",
+      "name": "Hatchan",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-014",
+      "name": "Boa Hancock",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-015",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-016",
+      "name": "To Never Doubt--That Is Power!",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-017",
+      "name": "Color of Observation Haki",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-018",
+      "name": "Color of the Supreme King Haki",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-019",
+      "name": "Color of Arms Haki",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-020",
+      "name": "Roronoa Zoro",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-021",
+      "name": "Ipponmatsu",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-022",
+      "name": "Inuarashi",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-023",
+      "name": "Kawamatsu",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-024",
+      "name": "Gyukimaru",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-026",
+      "name": "Kuina",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-027",
+      "name": "Koushirou",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-028",
+      "name": "Kouzuki Hiyori",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-029",
+      "name": "Shimotsuki Kouzaburou",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-030",
+      "name": "Dracule Mihawk",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-031",
+      "name": "Tashigi",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-032",
+      "name": "Nekomamushi",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-033",
+      "name": "Helmeppo",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-034",
+      "name": "Perona",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-036",
+      "name": "Roronoa Zoro",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-037",
+      "name": "Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-038",
+      "name": "Two-Sword Style Rashomon",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-039",
+      "name": "Luffy Is the Man Who Will Become the King of Pirates!!!",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-040",
+      "name": "Kuzan",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-041",
+      "name": "Sanji",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-042",
+      "name": "Alvida",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-043",
+      "name": "Kuzan",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-044",
+      "name": "Sakazuki",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-046",
+      "name": "Zephyr(Navy)",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-047",
+      "name": "Sengoku",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-048",
+      "name": "Donquixote Rosinante",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-049",
+      "name": "Buggy",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-050",
+      "name": "Jaguar.D.Saul",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-051",
+      "name": "Hina",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-053",
+      "name": "Borsalino",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-055",
+      "name": "Mohji & Cabaji",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-056",
+      "name": "Monkey.D.Garp",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-057",
+      "name": "Ice Block Pheasant Peck",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-058",
+      "name": "I Will Make Whitebeard the King of the Pirates",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-059",
+      "name": "Concasser",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-060",
+      "name": "Boeuf Burst",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-062",
+      "name": "Vinsmoke Sora",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-063",
+      "name": "Vinsmoke Reiju",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-065",
+      "name": "Emporio.Ivankov",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-066",
+      "name": "Carne",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-070",
+      "name": "Sanji",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-071",
+      "name": "Charlotte Pudding",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-072",
+      "name": "Zeff",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-073",
+      "name": "Trafalgar Law",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-074",
+      "name": "Patty",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-075",
+      "name": "Ms. All Sunday",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-076",
+      "name": "Monet",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-077",
+      "name": "The \"Extinguishes All Sound Created by Your Influence\" Technique",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-078",
+      "name": "Brochette Blow",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-079",
+      "name": "Luffy Is the Man Who Will Be King of the Pirates!!!",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-080",
+      "name": "Baratie",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-081",
+      "name": "Koala",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-083",
+      "name": "Inazuma",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-084",
+      "name": "Emporio.Ivankov",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-085",
+      "name": "Karasu",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-086",
+      "name": "Koala",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-087",
+      "name": "Nico Robin",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-089",
+      "name": "Hack",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-090",
+      "name": "Belo Betty",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-093",
+      "name": "Morley",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-094",
+      "name": "Monkey.D.Dragon",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-095",
+      "name": "Lindbergh",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-096",
+      "name": "Ursa Shock",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-097",
+      "name": "Captains Assembled",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-098",
+      "name": "Hair Removal Fist",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-099",
+      "name": "Kalgara",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-100",
+      "name": "Sabo",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-101",
+      "name": "Jewelry Bonney",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-102",
+      "name": "Shirahoshi",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-103",
+      "name": "Seto",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-106",
+      "name": "Trafalgar Law",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-107",
+      "name": "Donquixote Doflamingo",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-108",
+      "name": "Donquixote Rosinante",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-112",
+      "name": "Baby 5",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-113",
+      "name": "Roronoa Zoro",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-114",
+      "name": "Wyper",
+      "set": "OP-12",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP12-115",
+      "name": "I Love You!!",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-116",
+      "name": "We'll Ring the Bell Waiting for You!!",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-117",
+      "name": "Slam Gibson",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-118",
+      "name": "Jewelry Bonney",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP12-119",
+      "name": "Bartholomew Kuma",
+      "set": "OP-12",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-001",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-002",
+      "name": "Portgas.D.Ace",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-003",
+      "name": "Gol.D.Roger",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-004",
+      "name": "Sabo (004) (Alternate Art)",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-005",
+      "name": "Inazuma",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-007",
+      "name": "Ace & Sabo & Luffy",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-008",
+      "name": "Emporio.Ivankov",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-011",
+      "name": "Nefeltari Cobra",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-012",
+      "name": "Nefeltari Vivi",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-015",
+      "name": "Makino",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-016",
+      "name": "Monkey.D.Garp",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-017",
+      "name": "Monkey.D.Dragon",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-019",
+      "name": "But Ace Here Said You Deserved It!!",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-020",
+      "name": "Meteor Fist",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-021",
+      "name": "Gum-Gum Gatling Gun",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-023",
+      "name": "Uta",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-024",
+      "name": "Gordon",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-025",
+      "name": "Koby",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-026",
+      "name": "Sunny-Kun",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-027",
+      "name": "Sanji",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-028",
+      "name": "Shanks",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-029",
+      "name": "Jinbe",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-030",
+      "name": "Tony Tony.Chopper",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-031",
+      "name": "Trafalgar Law",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-032",
+      "name": "Nico Robin",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-033",
+      "name": "Franky",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-034",
+      "name": "Brook",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-035",
+      "name": "Bepo",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-036",
+      "name": "Helmeppo",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-037",
+      "name": "Roronoa Zoro",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-038",
+      "name": "Gum-Gum Elephant Gun",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-039",
+      "name": "Gum-Gum Snake Shot",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-040",
+      "name": "I Know You're Strong... So I'll Go All Out from the Very Start!!!",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-041",
+      "name": "Izo",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-042",
+      "name": "Edward.Newgate",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-043",
+      "name": "Otama",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-046",
+      "name": "Vista",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-047",
+      "name": "Fossa",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-050",
+      "name": "Boa Sandersonia",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-051",
+      "name": "Boa Hancock",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-052",
+      "name": "Boa Marigold",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-054",
+      "name": "Yamato",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-057",
+      "name": "If I Bowed Down to Power, What's the Point in Living?",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-058",
+      "name": "Phoenix Pyreapple",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-059",
+      "name": "Brilliant Punk",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-060",
+      "name": "Amatsuki Toki",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-061",
+      "name": "Inuarashi",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-062",
+      "name": "Crocus",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-063",
+      "name": "Kouzuki Oden",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-064",
+      "name": "Gol.D.Roger",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-065",
+      "name": "Shanks",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-066",
+      "name": "Silvers Rayleigh",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-067",
+      "name": "Scopper Gaban",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-068",
+      "name": "Douglas Bullet",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-071",
+      "name": "Nekomamushi",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-072",
+      "name": "Buggy",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-075",
+      "name": "Guess We'll Have Another Scrap. You Can Only Risk Death While You're Still Alive!!",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-076",
+      "name": "Divine Departure",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-077",
+      "name": "Go All the Way to the Top!!",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-078",
+      "name": "Oro Jackson",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-080",
+      "name": "St. Ethanbaron V. Nusjuro",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-081",
+      "name": "Koala",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-083",
+      "name": "St. Jaygarcia Saturn",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-084",
+      "name": "St. Shepherd Ju Peter",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-086",
+      "name": "Saint Shalria",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-087",
+      "name": "Saint Charlos",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-089",
+      "name": "St. Topman Warcury",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-090",
+      "name": "Hack",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-091",
+      "name": "St. Marcus Mars",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-092",
+      "name": "Saint Mjosgard",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-093",
+      "name": "Morgans",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-095",
+      "name": "Saint Rosward",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-096",
+      "name": "The Five Elders Are at Your Service!!!",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-097",
+      "name": "The World's Equilibrium Cannot Be Maintained Forever",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-098",
+      "name": "Never Existed... in the First Place...",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-099",
+      "name": "The Empty Throne",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-100",
+      "name": "Jewelry Bonney",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-101",
+      "name": "Atlas",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-102",
+      "name": "Edison",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-104",
+      "name": "Kouzuki Hiyori",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-105",
+      "name": "Kouzuki Momonosuke",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-107",
+      "name": "Shaka",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-108",
+      "name": "Jewelry Bonney",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-109",
+      "name": "Jewelry Bonney",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-110",
+      "name": "Stussy",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-111",
+      "name": "Pythagoras",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-112",
+      "name": "Vegapunk",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-113",
+      "name": "Lilith",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-114",
+      "name": "S-Snake",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-115",
+      "name": "Paper Art Afterimage",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-116",
+      "name": "The One Who Is the Most Free Is the Pirate King!!!",
+      "set": "OP-13",
+      "status": "implemented",
+      "note": ""
+    },
+    {
+      "code": "OP13-117",
+      "name": "Gum-Gum Dawn Stamp",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-118",
+      "name": "Monkey.D.Luffy",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-119",
+      "name": "Portgas.D.Ace",
+      "set": "OP-13",
+      "status": "unsupported",
+      "note": ""
+    },
+    {
+      "code": "OP13-120",
+      "name": "Sabo (120) (SP)",
+      "set": "OP-13",
       "status": "unsupported",
       "note": ""
     }
